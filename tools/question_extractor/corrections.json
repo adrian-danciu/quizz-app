@@ -1,0 +1,69 @@
+{
+  "programare-orientata-pe-obiecte-cpp:26": {
+    "correctOptionId": "c",
+    "reason": "PDF provides no red answer. operator[] is overloaded by the class member; user approved C."
+  },
+  "metode-avansate-de-programare-java:14": {
+    "correctOptionId": "d",
+    "reason": "PDF provides no red answer. A final Java method cannot be overridden but can be overloaded; user authorized technical resolution."
+  },
+  "metode-avansate-de-programare-java:27": {
+    "correctOptionId": "c",
+    "sourceOptionIds": ["a", "b", "c", "a"],
+    "canonicalOptionIds": ["a", "b", "c", "d"],
+    "reason": "PDF provides no red answer and duplicates label A for the fourth option. Treating os++ as the apparent cs++ typo, short-circuit evaluation yields option C; user authorized technical resolution."
+  },
+  "metode-avansate-de-programare-java:49": {
+    "correctOptionId": "c",
+    "reason": "PDF provides no red answer. A Java thread is represented by an instance of Thread; user authorized technical resolution."
+  },
+  "metode-avansate-de-programare-java:51": {
+    "correctOptionId": "d",
+    "reason": "PDF provides no red answer. TreeMap with natural ordering rejects a null key and throws NullPointerException; user authorized technical resolution."
+  },
+  "metode-avansate-de-programare-java:52": {
+    "correctOptionId": "b",
+    "reason": "PDF provides no red answer. The constructor runs once; deserialization does not invoke the Serializable class constructor; user authorized technical resolution."
+  },
+  "metode-avansate-de-programare-java:53": {
+    "correctOptionId": "b",
+    "reason": "PDF red rendering is not reliably extractable for this item. The stream filters, maps names, sorts, and joins them; user authorized technical resolution."
+  },
+  "metode-avansate-de-programare-java:54": {
+    "correctOptionId": "d",
+    "options": {
+      "a": "Sub\nSub\nSub",
+      "b": "Sub\nSub\nSuper",
+      "c": "Super\nSuper\nSuper",
+      "d": "Super\nSub\nSuper"
+    },
+    "reason": "PDF lays options out in columns that flatten incorrectly during text extraction. Static dispatch produces Super, Sub, Super, which is option D; user authorized technical resolution."
+  },
+  "baze-de-date:34": {
+    "correctOptionId": "c",
+    "reason": "PDF provides no red answer. EXISTS with a manager salary lower than the employee salary is equivalent to > ANY; user authorized technical resolution."
+  },
+  "tehnologii-web:37": {
+    "correctOptionId": "a",
+    "reason": "PDF provides no extractable red answer. PHP variables begin with $; user authorized technical resolution."
+  },
+  "cloud-computing:3": {
+    "correctOptionId": "b",
+    "sourceOptionIds": ["a", "b", "c", "e"],
+    "reason": "PDF skips option label D. The red source answer is B; preserving the source labels."
+  },
+  "cloud-computing:5": {
+    "correctOptionId": "b",
+    "sourceOptionIds": ["a", "b", "d"],
+    "reason": "PDF contains only three choices and skips option label C. The red source answer is B; preserving the source labels."
+  },
+  "cloud-computing:6": {
+    "correctOptionId": "e",
+    "sourceOptionIds": ["b", "c", "d", "e"],
+    "reason": "PDF labels choices B through E and omits A. The red source answer is E (toate); preserving the source labels."
+  },
+  "algoritmi-si-structuri-de-date:50": {
+    "correctOptionId": "a",
+    "reason": "PDF marks A and D red. A is the correct postorder traversal; user approved A only."
+  }
+}
