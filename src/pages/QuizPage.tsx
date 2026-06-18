@@ -72,11 +72,13 @@ function CurrentQuestion({ session, question }: { session: QuizSession; question
               '&:last-child': { pb: { xs: 2, md: 3 } },
             }}
           >
-            <Typography component="div" sx={{ fontSize: { xs: 15, md: 16 }, fontWeight: 650, lineHeight: 1.6, flexShrink: 0 }}>
-              <ContentBlocks blocks={question.content} />
-            </Typography>
+            <Box sx={{ flexShrink: 1, minHeight: 0, overflow: 'auto' }}>
+              <Typography component="div" sx={{ fontSize: { xs: 15, md: 16 }, fontWeight: 650, lineHeight: 1.6 }}>
+                <ContentBlocks blocks={question.content} />
+              </Typography>
+            </Box>
 
-            <Stack spacing={0.75} sx={{ mt: 2, flex: 1, overflow: 'auto' }}>
+            <Stack spacing={0.75} sx={{ mt: 1.5, flexShrink: 0 }}>
               {question.options.map((option) => (
                 <AnswerOption
                   key={option.id}
@@ -88,12 +90,14 @@ function CurrentQuestion({ session, question }: { session: QuizSession; question
               ))}
             </Stack>
 
-            {actionError && <Alert severity="warning" sx={{ mt: 1.5, flexShrink: 0 }}>{actionError}</Alert>}
+            <Box sx={{ flex: 1 }} />
+
+            {actionError && <Alert severity="warning" sx={{ mb: 1, flexShrink: 0 }}>{actionError}</Alert>}
 
             <Stack
               direction={{ xs: 'column-reverse', sm: 'row' }}
               spacing={2}
-              sx={{ mt: { xs: 1.5, md: 2 }, justifyContent: 'space-between', flexShrink: 0 }}
+              sx={{ mt: 1.5, justifyContent: 'space-between', flexShrink: 0 }}
             >
               <Button color="inherit" onClick={() => setAbandonOpen(true)}>Abandonează sesiunea</Button>
               <Button variant="contained" size="large" disabled={!selectedId && !response} onClick={next}>

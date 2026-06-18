@@ -18,7 +18,7 @@ export function ContentBlocks({ blocks }: { blocks: readonly ContentBlock[] }) {
                 bgcolor: '#eef3f9',
                 border: '1px solid #d9e3ef',
                 color: '#17233a',
-                font: '500 0.8rem/1.5 "SFMono-Regular", Consolas, monospace',
+                font: '500 0.7rem/1.45 "SFMono-Regular", Consolas, monospace',
                 whiteSpace: 'pre-wrap',
               }}
             >
