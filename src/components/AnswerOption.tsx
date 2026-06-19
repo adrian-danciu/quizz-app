@@ -22,7 +22,9 @@ export function AnswerOption({ option, state, disabled, onClick }: { option: Qui
       onClick={onClick}
       aria-pressed={state === 'selected'}
       sx={{
-        width: '100%', textAlign: 'left', p: { xs: '7px 10px', md: '8px 12px' }, borderRadius: 2,
+        width: '100%', minWidth: 0, maxWidth: '100%', textAlign: 'left',
+        py: { xs: 'var(--quiz-answer-padding-y, 7px)', md: '8px' },
+        px: { xs: 'var(--quiz-answer-padding-x, 10px)', md: '12px' }, borderRadius: 2,
         border: `2px solid ${style.border}`, bgcolor: style.bg, color: 'text.primary',
         cursor: disabled ? 'default' : 'pointer', opacity: state === 'muted' ? .72 : 1,
         transition: 'border-color .15s ease, background-color .15s ease, transform .15s ease',
@@ -30,11 +32,11 @@ export function AnswerOption({ option, state, disabled, onClick }: { option: Qui
         '&:focus-visible': { outline: '3px solid rgba(249,115,22,.35)', outlineOffset: 2 },
       }}
     >
-      <Stack direction="row" spacing={1.5} sx={{ alignItems: 'flex-start' }}>
-        <Box sx={{ flex: '0 0 auto', width: 26, height: 26, borderRadius: '50%', display: 'grid', placeItems: 'center', bgcolor: state === 'selected' ? 'primary.main' : 'rgba(16,34,63,.08)', color: state === 'selected' ? 'white' : 'text.primary', fontWeight: 900, fontSize: 12, textTransform: 'uppercase' }}>
+      <Stack direction="row" sx={{ minWidth: 0, maxWidth: '100%', gap: 'var(--quiz-answer-gap, 12px)', alignItems: 'flex-start' }}>
+        <Box sx={{ flex: '0 0 auto', width: 'var(--quiz-answer-marker-size, 26px)', height: 'var(--quiz-answer-marker-size, 26px)', borderRadius: '50%', display: 'grid', placeItems: 'center', bgcolor: state === 'selected' ? 'primary.main' : 'rgba(16,34,63,.08)', color: state === 'selected' ? 'white' : 'text.primary', fontWeight: 900, fontSize: 'var(--quiz-answer-font-size, 0.75rem)', textTransform: 'uppercase' }}>
           {option.id}
         </Box>
-        <Typography component="div" sx={{ flex: 1, fontSize: { xs: 13, md: 14 } }}><ContentBlocks blocks={option.content} /></Typography>
+        <Typography component="div" sx={{ flex: 1, minWidth: 0, maxWidth: '100%', fontSize: { xs: 'var(--quiz-answer-font-size, 0.8125rem)', md: 14 } }}><ContentBlocks blocks={option.content} /></Typography>
       </Stack>
     </Box>
   )

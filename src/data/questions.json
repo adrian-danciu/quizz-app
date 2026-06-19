@@ -2777,9 +2777,8 @@
           "id": "a",
           "content": [
             {
-              "type": "code",
-              "value": "fiecare linie din fișier;",
-              "language": "c"
+              "type": "text",
+              "value": "fiecare linie din fișier;"
             }
           ]
         },
@@ -2787,9 +2786,8 @@
           "id": "b",
           "content": [
             {
-              "type": "code",
-              "value": "penultima linie din fișier;",
-              "language": "c"
+              "type": "text",
+              "value": "penultima linie din fișier;"
             }
           ]
         },
@@ -2797,9 +2795,8 @@
           "id": "c",
           "content": [
             {
-              "type": "code",
-              "value": "ultimul caracter din fișier;",
-              "language": "c"
+              "type": "text",
+              "value": "ultimul caracter din fișier;"
             }
           ]
         },
@@ -4201,7 +4198,7 @@
           "content": [
             {
               "type": "text",
-              "value": "ș irul vid"
+              "value": "șirul vid"
             }
           ]
         },
@@ -5152,9 +5149,8 @@
           "id": "a",
           "content": [
             {
-              "type": "code",
-              "value": "Ana are verzi mere si pere",
-              "language": "python"
+              "type": "text",
+              "value": "Ana are verzi mere si pere"
             }
           ]
         },
@@ -5162,9 +5158,8 @@
           "id": "b",
           "content": [
             {
-              "type": "code",
-              "value": "Ana verzi are pere mere si",
-              "language": "python"
+              "type": "text",
+              "value": "Ana verzi are pere mere si"
             }
           ]
         },
@@ -5172,9 +5167,8 @@
           "id": "c",
           "content": [
             {
-              "type": "code",
-              "value": "Ana verzi pere are si mere",
-              "language": "python"
+              "type": "text",
+              "value": "Ana verzi pere are si mere"
             }
           ]
         },
@@ -5182,9 +5176,8 @@
           "id": "d",
           "content": [
             {
-              "type": "code",
-              "value": "Ana are si mere verzi pere",
-              "language": "python"
+              "type": "text",
+              "value": "Ana are si mere verzi pere"
             }
           ]
         }
@@ -6251,9 +6244,8 @@
           "id": "a",
           "content": [
             {
-              "type": "code",
-              "value": "constructorul de clasă se apelează o dată, iar cel de copiere nu se apelează;",
-              "language": "cpp"
+              "type": "text",
+              "value": "constructorul de clasă se apelează o dată, iar cel de copiere nu se apelează;"
             }
           ]
         },
@@ -6261,9 +6253,8 @@
           "id": "b",
           "content": [
             {
-              "type": "code",
-              "value": "constructorul de clasă şi cel de copiere se apelează fiecare câte o dată;",
-              "language": "cpp"
+              "type": "text",
+              "value": "constructorul de clasă şi cel de copiere se apelează fiecare câte o dată;"
             }
           ]
         },
@@ -6271,9 +6262,8 @@
           "id": "c",
           "content": [
             {
-              "type": "code",
-              "value": "constructorul de copiere se apelează o dată, iar cel de clasă nu se apelează;",
-              "language": "cpp"
+              "type": "text",
+              "value": "constructorul de copiere se apelează o dată, iar cel de clasă nu se apelează;"
             }
           ]
         },
@@ -6281,9 +6271,8 @@
           "id": "d",
           "content": [
             {
-              "type": "code",
-              "value": "constructorul de clasă se apelează de două ori, iar cel de copiere nicio dată;",
-              "language": "cpp"
+              "type": "text",
+              "value": "constructorul de clasă se apelează de două ori, iar cel de copiere nicio dată;"
             }
           ]
         }
@@ -6318,9 +6307,8 @@
           "id": "a",
           "content": [
             {
-              "type": "code",
-              "value": "constructorul clasei se apelează o dată, iar cel de copiere nu se apelează nicio dată;",
-              "language": "cpp"
+              "type": "text",
+              "value": "constructorul clasei se apelează o dată, iar cel de copiere nu se apelează nicio dată;"
             }
           ]
         },
@@ -6328,9 +6316,8 @@
           "id": "b",
           "content": [
             {
-              "type": "code",
-              "value": "constructorul de clasă şi cel de copiere se apelează fiecare câte o dată;",
-              "language": "cpp"
+              "type": "text",
+              "value": "constructorul de clasă şi cel de copiere se apelează fiecare câte o dată;"
             }
           ]
         },
@@ -6338,9 +6325,8 @@
           "id": "c",
           "content": [
             {
-              "type": "code",
-              "value": "constructorul de copiere se apelează o dată, iar cel de clasă nu se apelează;",
-              "language": "cpp"
+              "type": "text",
+              "value": "constructorul de copiere se apelează o dată, iar cel de clasă nu se apelează;"
             }
           ]
         },
@@ -6348,9 +6334,8 @@
           "id": "d",
           "content": [
             {
-              "type": "code",
-              "value": "constructorul clasei se apelează de două ori, iar cel de copiere nicio dată;",
-              "language": "cpp"
+              "type": "text",
+              "value": "constructorul clasei se apelează de două ori, iar cel de copiere nicio dată;"
             }
           ]
         }
@@ -6451,9 +6436,8 @@
           "id": "a",
           "content": [
             {
-              "type": "code",
-              "value": "de a nega pe biți rezultatul returnat de metoda c( );",
-              "language": "cpp"
+              "type": "text",
+              "value": "de a nega pe biți rezultatul returnat de metoda c( );"
             }
           ]
         },
@@ -6461,9 +6445,8 @@
           "id": "b",
           "content": [
             {
-              "type": "code",
-              "value": "de a preciza existența destructorului;",
-              "language": "cpp"
+              "type": "text",
+              "value": "de a preciza existența destructorului;"
             }
           ]
         },
@@ -6471,9 +6454,8 @@
           "id": "c",
           "content": [
             {
-              "type": "code",
-              "value": "de a nega logic rezultatul returnat de metoda c( );",
-              "language": "cpp"
+              "type": "text",
+              "value": "de a nega logic rezultatul returnat de metoda c( );"
             }
           ]
         },
@@ -6481,9 +6463,8 @@
           "id": "d",
           "content": [
             {
-              "type": "code",
-              "value": "de a supraîncarca constructorul clasei;",
-              "language": "cpp"
+              "type": "text",
+              "value": "de a supraîncarca constructorul clasei;"
             }
           ]
         }
@@ -6761,9 +6742,8 @@
           "id": "a",
           "content": [
             {
-              "type": "code",
-              "value": "da, fiind o supraîncarcare a celui existent;",
-              "language": "cpp"
+              "type": "text",
+              "value": "da, fiind o supraîncarcare a celui existent;"
             }
           ]
         },
@@ -6771,9 +6751,8 @@
           "id": "b",
           "content": [
             {
-              "type": "code",
-              "value": "nu, deoarece crează ambiguitate;",
-              "language": "cpp"
+              "type": "text",
+              "value": "nu, deoarece crează ambiguitate;"
             }
           ]
         },
@@ -6781,9 +6760,8 @@
           "id": "c",
           "content": [
             {
-              "type": "code",
-              "value": "nu, deoarece constructorul nu are tip returnat;",
-              "language": "cpp"
+              "type": "text",
+              "value": "nu, deoarece constructorul nu are tip returnat;"
             }
           ]
         },
@@ -7146,9 +7124,8 @@
           "id": "a",
           "content": [
             {
-              "type": "code",
-              "value": "nu se apelează nicio dată;",
-              "language": "cpp"
+              "type": "text",
+              "value": "nu se apelează nicio dată;"
             }
           ]
         },
@@ -7156,9 +7133,8 @@
           "id": "b",
           "content": [
             {
-              "type": "code",
-              "value": "se apelează o dată;",
-              "language": "cpp"
+              "type": "text",
+              "value": "se apelează o dată;"
             }
           ]
         },
@@ -7166,9 +7142,8 @@
           "id": "c",
           "content": [
             {
-              "type": "code",
-              "value": "se apelează de trei ori;",
-              "language": "cpp"
+              "type": "text",
+              "value": "se apelează de trei ori;"
             }
           ]
         },
@@ -7338,9 +7313,8 @@
           "id": "a",
           "content": [
             {
-              "type": "code",
-              "value": "ilegală, deoarece nu există niciun obiect creat;",
-              "language": "cpp"
+              "type": "text",
+              "value": "ilegală, deoarece nu există niciun obiect creat;"
             }
           ]
         },
@@ -7348,9 +7322,8 @@
           "id": "b",
           "content": [
             {
-              "type": "code",
-              "value": "ilegală, deoarece s este inițializat în afara clasei;",
-              "language": "cpp"
+              "type": "text",
+              "value": "ilegală, deoarece s este inițializat în afara clasei;"
             }
           ]
         },
@@ -7358,9 +7331,8 @@
           "id": "c",
           "content": [
             {
-              "type": "code",
-              "value": "ilegală, deoarece s este dublu definit, în clasă și în afara ei;",
-              "language": "cpp"
+              "type": "text",
+              "value": "ilegală, deoarece s este dublu definit, în clasă și în afara ei;"
             }
           ]
         },
@@ -7655,9 +7627,8 @@
           "id": "a",
           "content": [
             {
-              "type": "code",
-              "value": "executarea constructorului de copiere;",
-              "language": "cpp"
+              "type": "text",
+              "value": "executarea constructorului de copiere;"
             }
           ]
         },
@@ -7685,9 +7656,8 @@
           "id": "d",
           "content": [
             {
-              "type": "code",
-              "value": "o eroare, deoarece nu este permisă combinarea atribuirii cu o declarație;",
-              "language": "cpp"
+              "type": "text",
+              "value": "o eroare, deoarece nu este permisă combinarea atribuirii cu o declarație;"
             }
           ]
         }
@@ -7722,9 +7692,8 @@
           "id": "a",
           "content": [
             {
-              "type": "code",
-              "value": "nu se apelează nicio dată;",
-              "language": "cpp"
+              "type": "text",
+              "value": "nu se apelează nicio dată;"
             }
           ]
         },
@@ -7732,9 +7701,8 @@
           "id": "b",
           "content": [
             {
-              "type": "code",
-              "value": "se apelează o dată;",
-              "language": "cpp"
+              "type": "text",
+              "value": "se apelează o dată;"
             }
           ]
         },
@@ -7742,9 +7710,8 @@
           "id": "c",
           "content": [
             {
-              "type": "code",
-              "value": "se apelează de trei ori;",
-              "language": "cpp"
+              "type": "text",
+              "value": "se apelează de trei ori;"
             }
           ]
         },
@@ -7779,9 +7746,8 @@
           "id": "a",
           "content": [
             {
-              "type": "code",
-              "value": "doar la membrii declarați public ;",
-              "language": "cpp"
+              "type": "text",
+              "value": "doar la membrii declarați public ;"
             }
           ]
         },
@@ -7789,9 +7755,8 @@
           "id": "b",
           "content": [
             {
-              "type": "code",
-              "value": "la toți membrii;",
-              "language": "cpp"
+              "type": "text",
+              "value": "la toți membrii;"
             }
           ]
         },
@@ -7799,9 +7764,8 @@
           "id": "c",
           "content": [
             {
-              "type": "code",
-              "value": "la membrii public și la cei protected ;",
-              "language": "cpp"
+              "type": "text",
+              "value": "la membrii public și la cei protected ;"
             }
           ]
         },
@@ -7845,9 +7809,8 @@
           "id": "a",
           "content": [
             {
-              "type": "code",
-              "value": "produce supraîncărcarea unei funcţii;",
-              "language": "cpp"
+              "type": "text",
+              "value": "produce supraîncărcarea unei funcţii;"
             }
           ]
         },
@@ -7855,9 +7818,8 @@
           "id": "b",
           "content": [
             {
-              "type": "code",
-              "value": "produce supraîncărcarea unui operator unar;",
-              "language": "cpp"
+              "type": "text",
+              "value": "produce supraîncărcarea unui operator unar;"
             }
           ]
         },
@@ -7875,9 +7837,8 @@
           "id": "d",
           "content": [
             {
-              "type": "code",
-              "value": "este o funcţie membru oarecare a clasei A, care nu produce supraîncărcarea unui operator;",
-              "language": "cpp"
+              "type": "text",
+              "value": "este o funcţie membru oarecare a clasei A, care nu produce supraîncărcarea unui operator;"
             }
           ]
         }
@@ -7988,9 +7949,8 @@
           "id": "b",
           "content": [
             {
-              "type": "code",
-              "value": "programul afișează valoarea lui a ;",
-              "language": "cpp"
+              "type": "text",
+              "value": "programul afișează valoarea lui a ;"
             }
           ]
         },
@@ -7998,9 +7958,8 @@
           "id": "c",
           "content": [
             {
-              "type": "code",
-              "value": "derivarea publică este incorect realizată;",
-              "language": "cpp"
+              "type": "text",
+              "value": "derivarea publică este incorect realizată;"
             }
           ]
         },
@@ -8044,9 +8003,8 @@
           "id": "a",
           "content": [
             {
-              "type": "code",
-              "value": "eroare, clasa B nu poate fi moștenită de clasa D;",
-              "language": "cpp"
+              "type": "text",
+              "value": "eroare, clasa B nu poate fi moștenită de clasa D;"
             }
           ]
         },
@@ -8054,9 +8012,8 @@
           "id": "b",
           "content": [
             {
-              "type": "code",
-              "value": "eroare, metoda operator nu are acces la un membru privat al clasei de bază;",
-              "language": "cpp"
+              "type": "text",
+              "value": "eroare, metoda operator nu are acces la un membru privat al clasei de bază;"
             }
           ]
         },
@@ -8389,9 +8346,8 @@
               "value": "eroare, nu se poate instanţia un obiect al unei clase derivate printr-un pointer la un obiect"
             },
             {
-              "type": "code",
-              "value": "de tip clasa de bază;",
-              "language": "cpp"
+              "type": "text",
+              "value": "de tip clasa de bază;"
             }
           ]
         },
@@ -8444,9 +8400,8 @@
           "id": "a",
           "content": [
             {
-              "type": "code",
-              "value": "eroare, data membră statică x nu este iniţializată;",
-              "language": "cpp"
+              "type": "text",
+              "value": "eroare, data membră statică x nu este iniţializată;"
             }
           ]
         },
@@ -8816,9 +8771,8 @@
           "id": "a",
           "content": [
             {
-              "type": "code",
-              "value": "nu se poate defini inline ;",
-              "language": "cpp"
+              "type": "text",
+              "value": "nu se poate defini inline ;"
             }
           ]
         },
@@ -8826,9 +8780,8 @@
           "id": "b",
           "content": [
             {
-              "type": "code",
-              "value": "nu primeşte pointerul implicit la obiect this ;",
-              "language": "cpp"
+              "type": "text",
+              "value": "nu primeşte pointerul implicit la obiect this ;"
             }
           ]
         },
@@ -8836,9 +8789,8 @@
           "id": "c",
           "content": [
             {
-              "type": "code",
-              "value": "nu poate accesa decât partea publică a obiectului;",
-              "language": "cpp"
+              "type": "text",
+              "value": "nu poate accesa decât partea publică a obiectului;"
             }
           ]
         },
@@ -8846,9 +8798,8 @@
           "id": "d",
           "content": [
             {
-              "type": "code",
-              "value": "se foloseşte doar pentru supraîncărcarea operatorilor;",
-              "language": "cpp"
+              "type": "text",
+              "value": "se foloseşte doar pentru supraîncărcarea operatorilor;"
             }
           ]
         }
@@ -8874,9 +8825,8 @@
           "id": "a",
           "content": [
             {
-              "type": "code",
-              "value": "doar la membrii publici;",
-              "language": "cpp"
+              "type": "text",
+              "value": "doar la membrii publici;"
             }
           ]
         },
@@ -8884,9 +8834,8 @@
           "id": "b",
           "content": [
             {
-              "type": "code",
-              "value": "la toti membrii;",
-              "language": "cpp"
+              "type": "text",
+              "value": "la toti membrii;"
             }
           ]
         },
@@ -8894,9 +8843,8 @@
           "id": "c",
           "content": [
             {
-              "type": "code",
-              "value": "la membrii public şi protected;",
-              "language": "cpp"
+              "type": "text",
+              "value": "la membrii public şi protected;"
             }
           ]
         },
@@ -8904,9 +8852,8 @@
           "id": "d",
           "content": [
             {
-              "type": "code",
-              "value": "la membrii private;",
-              "language": "cpp"
+              "type": "text",
+              "value": "la membrii private;"
             }
           ]
         }
@@ -8955,9 +8902,8 @@
           "id": "b",
           "content": [
             {
-              "type": "code",
-              "value": "apeleaza de trei ori constructorul de copiere, o data constructorul implicit;",
-              "language": "cpp"
+              "type": "text",
+              "value": "apeleaza de trei ori constructorul de copiere, o data constructorul implicit;"
             }
           ]
         },
@@ -9319,9 +9265,8 @@
           "id": "a",
           "content": [
             {
-              "type": "code",
-              "value": "lista de parametri;",
-              "language": "cpp"
+              "type": "text",
+              "value": "lista de parametri;"
             }
           ]
         },
@@ -10651,9 +10596,8 @@
           "id": "a",
           "content": [
             {
-              "type": "code",
-              "value": "se foloseşte cuvantul cheie abstract ;",
-              "language": "java"
+              "type": "text",
+              "value": "se foloseşte cuvantul cheie abstract ;"
             }
           ]
         },
@@ -10665,9 +10609,8 @@
               "value": "suprascrie fiecare metodă declarată abstractă în superclasa sa şi furnizeaza implementări"
             },
             {
-              "type": "code",
-              "value": "pentru toate acestea;",
-              "language": "java"
+              "type": "text",
+              "value": "pentru toate acestea;"
             }
           ]
         },
@@ -10675,9 +10618,8 @@
           "id": "c",
           "content": [
             {
-              "type": "code",
-              "value": "se foloseşte moştenirea multiplă;",
-              "language": "java"
+              "type": "text",
+              "value": "se foloseşte moştenirea multiplă;"
             }
           ]
         },
@@ -10712,9 +10654,8 @@
           "id": "a",
           "content": [
             {
-              "type": "code",
-              "value": "Permite referireaclaselorfărăutilizareade prefixe;",
-              "language": "java"
+              "type": "text",
+              "value": "Permite referireaclaselorfărăutilizareade prefixe;"
             }
           ]
         },
@@ -10722,9 +10663,8 @@
           "id": "b",
           "content": [
             {
-              "type": "code",
-              "value": "Permite importul imaginilor folosite;",
-              "language": "java"
+              "type": "text",
+              "value": "Permite importul imaginilor folosite;"
             }
           ]
         },
@@ -10732,9 +10672,8 @@
           "id": "c",
           "content": [
             {
-              "type": "code",
-              "value": "Elimină necesitatea declarării variabilelor;",
-              "language": "java"
+              "type": "text",
+              "value": "Elimină necesitatea declarării variabilelor;"
             }
           ]
         },
@@ -11021,9 +10960,8 @@
           "id": "a",
           "content": [
             {
-              "type": "code",
-              "value": "Eroare la compilare: nu se poate aduna o valoare booleana cu un String;",
-              "language": "java"
+              "type": "text",
+              "value": "Eroare la compilare: nu se poate aduna o valoare booleana cu un String;"
             }
           ]
         },
@@ -11266,9 +11204,8 @@
           "id": "a",
           "content": [
             {
-              "type": "code",
-              "value": "Va aparea eroare la compilare deoarece valoarea variabilei x nu se mai poatemodifica;",
-              "language": "java"
+              "type": "text",
+              "value": "Va aparea eroare la compilare deoarece valoarea variabilei x nu se mai poatemodifica;"
             }
           ]
         },
@@ -11371,9 +11308,8 @@
               "value": "Va aparea eroare la compilare deoarece metoda suprascrisă f() din clasa C2 intoarce un tip"
             },
             {
-              "type": "code",
-              "value": "diferit de void;",
-              "language": "java"
+              "type": "text",
+              "value": "diferit de void;"
             }
           ]
         }
@@ -11399,9 +11335,8 @@
           "id": "a",
           "content": [
             {
-              "type": "code",
-              "value": "Se foloseşte cuvantul cheie abstract;",
-              "language": "java"
+              "type": "text",
+              "value": "Se foloseşte cuvantul cheie abstract;"
             }
           ]
         },
@@ -11413,9 +11348,8 @@
               "value": "Suprascrie fiecare metodă declarată abstractă în superclasa sa, şi furnizeaza implementari"
             },
             {
-              "type": "code",
-              "value": "pentru toate acestea ;",
-              "language": "java"
+              "type": "text",
+              "value": "pentru toate acestea ;"
             }
           ]
         },
@@ -11423,9 +11357,8 @@
           "id": "c",
           "content": [
             {
-              "type": "code",
-              "value": "Se foloseşte moştenirea multiplă;",
-              "language": "java"
+              "type": "text",
+              "value": "Se foloseşte moştenirea multiplă;"
             }
           ]
         },
@@ -11433,9 +11366,8 @@
           "id": "d",
           "content": [
             {
-              "type": "code",
-              "value": "O subclasă abstractă nu poate fi instanţiată;",
-              "language": "java"
+              "type": "text",
+              "value": "O subclasă abstractă nu poate fi instanţiată;"
             }
           ]
         }
@@ -12467,9 +12399,8 @@
           "id": "d",
           "content": [
             {
-              "type": "code",
-              "value": "Exepție la executare de tip NullPointerException",
-              "language": "java"
+              "type": "text",
+              "value": "Exepție la executare de tip NullPointerException"
             }
           ]
         }
@@ -12530,9 +12461,8 @@
           "id": "d",
           "content": [
             {
-              "type": "code",
-              "value": "Exepție la executare de tip NullPointerException",
-              "language": "java"
+              "type": "text",
+              "value": "Exepție la executare de tip NullPointerException"
             }
           ]
         }
@@ -13226,9 +13156,8 @@
           "id": "a",
           "content": [
             {
-              "type": "code",
-              "value": "numărul valorilor distincte din tabloul 𝑎 ;",
-              "language": "c"
+              "type": "text",
+              "value": "numărul valorilor distincte din tabloul 𝑎 ;"
             }
           ]
         },
@@ -13236,9 +13165,8 @@
           "id": "b",
           "content": [
             {
-              "type": "code",
-              "value": "lungimea maximă a unei secvenţe din tabloul 𝑎 formată din valori egale;",
-              "language": "c"
+              "type": "text",
+              "value": "lungimea maximă a unei secvenţe din tabloul 𝑎 formată din valori egale;"
             }
           ]
         },
@@ -13246,9 +13174,8 @@
           "id": "c",
           "content": [
             {
-              "type": "code",
-              "value": "numărul secvenţelor strict crescătoare din tabloul 𝑎 ;",
-              "language": "c"
+              "type": "text",
+              "value": "numărul secvenţelor strict crescătoare din tabloul 𝑎 ;"
             }
           ]
         },
@@ -13544,9 +13471,8 @@
           "id": "a",
           "content": [
             {
-              "type": "code",
-              "value": "numărul natural 𝑛 este par;",
-              "language": "c"
+              "type": "text",
+              "value": "numărul natural 𝑛 este par;"
             }
           ]
         },
@@ -13554,9 +13480,8 @@
           "id": "b",
           "content": [
             {
-              "type": "code",
-              "value": "numărul natural 𝑛 este prim;",
-              "language": "c"
+              "type": "text",
+              "value": "numărul natural 𝑛 este prim;"
             }
           ]
         },
@@ -13564,9 +13489,8 @@
           "id": "c",
           "content": [
             {
-              "type": "code",
-              "value": "numărul natural 𝑛 nu este prim;",
-              "language": "c"
+              "type": "text",
+              "value": "numărul natural 𝑛 nu este prim;"
             }
           ]
         },
@@ -13621,9 +13545,8 @@
           "id": "c",
           "content": [
             {
-              "type": "code",
-              "value": "sortarea prin interclasare;",
-              "language": "c"
+              "type": "text",
+              "value": "sortarea prin interclasare;"
             }
           ]
         },
@@ -13668,9 +13591,8 @@
           "id": "b",
           "content": [
             {
-              "type": "code",
-              "value": "sortarea prin selecția minimului;",
-              "language": "c"
+              "type": "text",
+              "value": "sortarea prin selecția minimului;"
             }
           ]
         },
@@ -13678,9 +13600,8 @@
           "id": "c",
           "content": [
             {
-              "type": "code",
-              "value": "sortarea prin interclasare;",
-              "language": "c"
+              "type": "text",
+              "value": "sortarea prin interclasare;"
             }
           ]
         },
@@ -13725,9 +13646,8 @@
           "id": "b",
           "content": [
             {
-              "type": "code",
-              "value": "sortarea cu ansamble;",
-              "language": "c"
+              "type": "text",
+              "value": "sortarea cu ansamble;"
             }
           ]
         },
@@ -13735,9 +13655,8 @@
           "id": "c",
           "content": [
             {
-              "type": "code",
-              "value": "sortarea prin interclasare;",
-              "language": "c"
+              "type": "text",
+              "value": "sortarea prin interclasare;"
             }
           ]
         },
@@ -13904,9 +13823,8 @@
           "id": "a",
           "content": [
             {
-              "type": "code",
-              "value": "valoarea elementului din mijlocul tabloului 𝑎 ;",
-              "language": "c"
+              "type": "text",
+              "value": "valoarea elementului din mijlocul tabloului 𝑎 ;"
             }
           ]
         },
@@ -13914,9 +13832,8 @@
           "id": "b",
           "content": [
             {
-              "type": "code",
-              "value": "dublul sumei valorilor din tabloul 𝑎 ;",
-              "language": "c"
+              "type": "text",
+              "value": "dublul sumei valorilor din tabloul 𝑎 ;"
             }
           ]
         },
@@ -13924,9 +13841,8 @@
           "id": "c",
           "content": [
             {
-              "type": "code",
-              "value": "numărul valorilor pozitive din tabloul 𝑎 ;",
-              "language": "c"
+              "type": "text",
+              "value": "numărul valorilor pozitive din tabloul 𝑎 ;"
             }
           ]
         },
@@ -14159,9 +14075,8 @@
           "id": "a",
           "content": [
             {
-              "type": "code",
-              "value": "se încearcă alegerea unei noi valori pentru 𝑥 ;",
-              "language": "c"
+              "type": "text",
+              "value": "se încearcă alegerea unei noi valori pentru 𝑥 ;"
             },
             {
               "type": "text",
@@ -14173,9 +14088,8 @@
           "id": "b",
           "content": [
             {
-              "type": "code",
-              "value": "se încearcă alegerea unei noi valori pentru 𝑥 , oricare ar fi valoarea lui 𝑘 ;",
-              "language": "c"
+              "type": "text",
+              "value": "se încearcă alegerea unei noi valori pentru 𝑥 , oricare ar fi valoarea lui 𝑘 ;"
             },
             {
               "type": "text",
@@ -14187,9 +14101,8 @@
           "id": "c",
           "content": [
             {
-              "type": "code",
-              "value": "se încheie algoritmul;",
-              "language": "c"
+              "type": "text",
+              "value": "se încheie algoritmul;"
             }
           ]
         },
@@ -14234,9 +14147,8 @@
           "id": "b",
           "content": [
             {
-              "type": "code",
-              "value": "descompunerea unui număr natural ca sumă de numere naturale nenule;",
-              "language": "c"
+              "type": "text",
+              "value": "descompunerea unui număr natural ca sumă de numere naturale nenule;"
             }
           ]
         },
@@ -14244,9 +14156,8 @@
           "id": "c",
           "content": [
             {
-              "type": "code",
-              "value": "plata unei sume folosind 𝑛 tipuri de monede;",
-              "language": "c"
+              "type": "text",
+              "value": "plata unei sume folosind 𝑛 tipuri de monede;"
             }
           ]
         },
@@ -14281,9 +14192,8 @@
           "id": "a",
           "content": [
             {
-              "type": "code",
-              "value": "doar metoda programării dinamice;",
-              "language": "c"
+              "type": "text",
+              "value": "doar metoda programării dinamice;"
             }
           ]
         },
@@ -14295,9 +14205,8 @@
               "value": "doar metoda backtracking (se generează toate subşirurile şirului respectiv, iar pentru"
             },
             {
-              "type": "code",
-              "value": "fiecare subşir se verifică dacă este crescător şi, respectiv, maximal);",
-              "language": "c"
+              "type": "text",
+              "value": "fiecare subşir se verifică dacă este crescător şi, respectiv, maximal);"
             }
           ]
         },
@@ -14309,9 +14218,8 @@
               "value": "mai întâi metoda programării dinamice pentru a determina lungimea maximă 𝑙𝑚𝑎𝑥 a unui subşir crescător al şirului dat şi apoi metoda backtracking pentru a genera toate"
             },
             {
-              "type": "code",
-              "value": "subşirurile crescătoare de lungime 𝑙𝑚𝑎𝑥 ale şirului considerat;",
-              "language": "c"
+              "type": "text",
+              "value": "subşirurile crescătoare de lungime 𝑙𝑚𝑎𝑥 ale şirului considerat;"
             }
           ]
         },
@@ -14346,9 +14254,8 @@
           "id": "a",
           "content": [
             {
-              "type": "code",
-              "value": "generarea aranjamentelor formate din p elemente ale unei mulțimi cu n elemente;",
-              "language": "c"
+              "type": "text",
+              "value": "generarea aranjamentelor formate din p elemente ale unei mulțimi cu n elemente;"
             }
           ]
         },
@@ -14356,9 +14263,8 @@
           "id": "b",
           "content": [
             {
-              "type": "code",
-              "value": "generarea permutărilor unei mulțimi cu p elemente;",
-              "language": "c"
+              "type": "text",
+              "value": "generarea permutărilor unei mulțimi cu p elemente;"
             }
           ]
         },
@@ -14366,9 +14272,8 @@
           "id": "c",
           "content": [
             {
-              "type": "code",
-              "value": "generarea combinărilor formate din p elemente ale unei mulțimi cu n elemente;",
-              "language": "c"
+              "type": "text",
+              "value": "generarea combinărilor formate din p elemente ale unei mulțimi cu n elemente;"
             }
           ]
         },
@@ -14730,9 +14635,8 @@
           "id": "a",
           "content": [
             {
-              "type": "code",
-              "value": "conduce întotdeauna la o soluție optimă;",
-              "language": "c"
+              "type": "text",
+              "value": "conduce întotdeauna la o soluție optimă;"
             }
           ]
         },
@@ -14754,9 +14658,8 @@
           "id": "c",
           "content": [
             {
-              "type": "code",
-              "value": "găseşte toate soluțile unei probleme;",
-              "language": "c"
+              "type": "text",
+              "value": "găseşte toate soluțile unei probleme;"
             }
           ]
         },
@@ -14795,9 +14698,8 @@
               "value": "se generează toate modurile în care pot fi rearanjate cele 𝑛 persoane la coadă şi pentru fiecare mod de rearanjare se calculează într-un tablou timpii de servire, iar soluția este"
             },
             {
-              "type": "code",
-              "value": "dată de tabloul minim în sens lexicografic;",
-              "language": "c"
+              "type": "text",
+              "value": "dată de tabloul minim în sens lexicografic;"
             }
           ]
         },
@@ -14805,9 +14707,8 @@
           "id": "b",
           "content": [
             {
-              "type": "code",
-              "value": "se rearanjează persoanele în ordinea descrescătoare a timpilor de servire;",
-              "language": "c"
+              "type": "text",
+              "value": "se rearanjează persoanele în ordinea descrescătoare a timpilor de servire;"
             }
           ]
         },
@@ -14819,9 +14720,8 @@
               "value": "se generează toate modurile în care pot fi rearanjate cele 𝑛 persoane la coadă şi pentru fiecare mod de rearanjare se calculează timpul total 𝑇 de servire al celor 𝑛 persoane,"
             },
             {
-              "type": "code",
-              "value": "iar soluția este tabloul pentru care valoarea lui 𝑇 este minimă;",
-              "language": "c"
+              "type": "text",
+              "value": "iar soluția este tabloul pentru care valoarea lui 𝑇 este minimă;"
             }
           ]
         },
@@ -14982,9 +14882,8 @@
               "value": "se sortează spectacolele în ordinea crescătoare a duratei lor, se programează primul spectacol și apoi se consideră, pe rând, restul spectacolelor, un spectacol fiind"
             },
             {
-              "type": "code",
-              "value": "programat doar dacă începe după ce se termină spectacolul programat anterior;",
-              "language": "c"
+              "type": "text",
+              "value": "programat doar dacă începe după ce se termină spectacolul programat anterior;"
             }
           ]
         },
@@ -14996,9 +14895,8 @@
               "value": "se sortează spectacolele în ordinea crescătoare a orelor la care încep, se programează primul spectacol și apoi se consideră, pe rând, restul spectacolelor, un spectacol fiind"
             },
             {
-              "type": "code",
-              "value": "programat doar dacă începe după ce se termină spectacolul programat anterior;",
-              "language": "c"
+              "type": "text",
+              "value": "programat doar dacă începe după ce se termină spectacolul programat anterior;"
             }
           ]
         },
@@ -40595,7 +40493,7 @@
       "content": [
         {
           "type": "text",
-          "value": "Inovarea reprezint ă :"
+          "value": "Inovarea reprezintă:"
         }
       ],
       "options": [
@@ -40604,7 +40502,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Procesul prin care o inova ț ie (produs sau procedeu/tehnologie/proces), pornind de la o inven ț ie sau o îmbun ă t ăț ire semnificativ ă , ajunge s ă fie implementat ă în activitatea unei organiza ț ii sau valorificat ă pe pia ță ."
+              "value": "Procesul prin care o inovație (produs sau procedeu/tehnologie/proces), pornind de la o invenție sau o îmbunătățire semnificativă, ajunge să fie implementată în activitatea unei organizații sau valorificată pe piață."
             }
           ]
         },
@@ -40613,7 +40511,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Un produs a c ă rui culoare ș i form ă au fost schimbate, f ă r ă nicio îmbun ă t ăț ire semnificativ ă ."
+              "value": "Un produs a cărui culoare și formă au fost schimbate, fără nicio îmbunătățire semnificativă."
             }
           ]
         },
@@ -40622,7 +40520,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Procesul prin care o inova ț ie (produs sau procedeu/tehnologie), pornind exclusiv de la o inven ț ie, ajunge s ă fie implementat ă în activitatea unei organiza ț ii sau valorificat ă pe pia ță ."
+              "value": "Procesul prin care o inovație (produs sau procedeu/tehnologie), pornind exclusiv de la o invenție, ajunge să fie implementată în activitatea unei organizații sau valorificată pe piață."
             }
           ]
         },
@@ -40631,7 +40529,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Procesul prin care o inova ț ie (produs sau procedeu/tehnologie), pornind exclusiv de la o îmbun ă t ăț ire semnificativ ă , ajunge s ă fie implementat ă în activitatea unei organiza ț ii sau valorificat ă pe pia ță"
+              "value": "Procesul prin care o inovație (produs sau procedeu/tehnologie), pornind exclusiv de la o îmbunătățire semnificativă, ajunge să fie implementată în activitatea unei organizații sau valorificată pe piață."
             }
           ]
         }
@@ -40649,7 +40547,7 @@
       "content": [
         {
           "type": "text",
-          "value": "În func ț ie de gradul de schimbare (intensitatea schimb ă rii generate), inovarea se clasific ă în:"
+          "value": "În funcție de gradul de schimbare (intensitatea schimbării generate), inovarea se clasifică în:"
         }
       ],
       "options": [
@@ -40658,7 +40556,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Inovare nou ă pentru o organiza ț ie ș i inovare nou ă pentru o anumit ă pia ță ."
+              "value": "Inovare nouă pentru o organizație și inovare nouă pentru o anumită piață."
             }
           ]
         },
@@ -40667,7 +40565,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Inovare radical ă ș i inovare incremental ă ."
+              "value": "Inovare radicală și inovare incrementală."
             }
           ]
         },
@@ -40676,7 +40574,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Inovare care schimb ă structura pie ț ei si inovare care creeaz ă noi pie ț e."
+              "value": "Inovare care schimbă structura pieței și inovare care creează noi piețe."
             }
           ]
         },
@@ -40685,7 +40583,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Inovare nou ă pentru întreaga lume ș i inovare radical ă ."
+              "value": "Inovare nouă pentru întreaga lume și inovare radicală."
             }
           ]
         }
@@ -40703,7 +40601,7 @@
       "content": [
         {
           "type": "text",
-          "value": "In func ț ie de tip (obiect), inovarea se clasific ă în:"
+          "value": "În funcție de tip (obiect), inovarea se clasifică în:"
         }
       ],
       "options": [
@@ -40712,7 +40610,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Inovare radical ă ș i inovare incremental ă ."
+              "value": "Inovare radicală și inovare incrementală."
             }
           ]
         },
@@ -40721,7 +40619,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Inovare care schimb ă structura pie ț ei si inovare care creaz ă noi pie ț e."
+              "value": "Inovare care schimbă structura pieței și inovare care creează noi piețe."
             }
           ]
         },
@@ -40730,7 +40628,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Inovare de produs ș i inovare de proces de afaceri ."
+              "value": "Inovare de produs și inovare de proces de afaceri."
             }
           ]
         },
@@ -40739,7 +40637,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Inovare nou ă pentru o organiza ț ie ș i inovare nou ă pentru întreaga lume."
+              "value": "Inovare nouă pentru o organizație și inovare nouă pentru întreaga lume."
             }
           ]
         }
@@ -40757,7 +40655,7 @@
       "content": [
         {
           "type": "text",
-          "value": "Produsul reprezint ă :"
+          "value": "Produsul reprezintă:"
         }
       ],
       "options": [
@@ -40766,7 +40664,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Bun ș i/sau serviciu ."
+              "value": "Un bun și/sau un serviciu."
             }
           ]
         },
@@ -40775,7 +40673,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Bun nou."
+              "value": "Un bun nou."
             }
           ]
         },
@@ -40784,7 +40682,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Serviciu nou."
+              "value": "Un serviciu nou."
             }
           ]
         },
@@ -40793,7 +40691,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Bun ș i/sau tehnologie."
+              "value": "Un bun și/sau o tehnologie."
             }
           ]
         }
@@ -40811,7 +40709,7 @@
       "content": [
         {
           "type": "text",
-          "value": "Inven ț ia privind linia de asamblare reprezint ă un exemplu de:"
+          "value": "Invenția privind linia de asamblare reprezintă un exemplu de:"
         }
       ],
       "options": [
@@ -40820,7 +40718,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Inovare de proces de afaceri ."
+              "value": "Inovare de proces de afaceri."
             }
           ]
         },
@@ -40838,7 +40736,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Inovare pentru o anumit ă pia ță ."
+              "value": "Inovare pentru o anumită piață."
             }
           ]
         },
@@ -40847,7 +40745,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Nu reprezint ă inovare."
+              "value": "Nu reprezintă inovare."
             }
           ]
         }
@@ -40865,7 +40763,7 @@
       "content": [
         {
           "type": "text",
-          "value": "Schimbarea culorii sau o schimbare minor ă a formei unui produs:"
+          "value": "Schimbarea culorii sau o schimbare minoră a formei unui produs:"
         }
       ],
       "options": [
@@ -40874,7 +40772,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Reprezint ă îmbun ă t ăț iri semnificative, caracteristice unei inova ț ii."
+              "value": "Reprezintă îmbunătățiri semnificative, caracteristice unei inovații."
             }
           ]
         },
@@ -40883,7 +40781,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Nu reprezint ă îmbun ă t ăț iri semnificative, caracteristice unei inova ț ii ."
+              "value": "Nu reprezintă îmbunătățiri semnificative, caracteristice unei inovații."
             }
           ]
         },
@@ -40892,7 +40790,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Reprezint ă inven ț ii."
+              "value": "Reprezintă invenții."
             }
           ]
         },
@@ -40901,7 +40799,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Reprezint ă inovare de produs."
+              "value": "Reprezintă inovare de produs."
             }
           ]
         }
@@ -40919,7 +40817,7 @@
       "content": [
         {
           "type": "text",
-          "value": "Modelul de proces de inovare “tehnologia care împinge” (“technology push”) reprezint ă :"
+          "value": "Modelul de proces de inovare „tehnologia care împinge” („technology push”) reprezintă:"
         }
       ],
       "options": [
@@ -40928,7 +40826,7 @@
           "content": [
             {
               "type": "text",
-              "value": "novare de proces de afaceri."
+              "value": "Inovare de proces de afaceri."
             }
           ]
         },
@@ -40937,7 +40835,7 @@
           "content": [
             {
               "type": "text",
-              "value": "novare de produs."
+              "value": "Inovare de produs."
             }
           ]
         },
@@ -40946,7 +40844,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Un model de proces de inovare, care presupune c ă inova ț iile sunt generate de organiza ț ie ș i împinse c ă tre pia ță , f ă r ă a se ț ine cont de nevoile pie ț ei ."
+              "value": "Un model de proces de inovare, care presupune că inovațiile sunt generate de organizație și împinse către piață, fără a se ține cont de nevoile pieței."
             }
           ]
         },
@@ -40955,7 +40853,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Un model de proces de inovare care ț ine cont de nevoile pie ț ei, respectiv care presupune orientarea activit ăț ilor de cercetare-dezvoltare în func ț ie de cerin ț ele pie ț ei."
+              "value": "Un model de proces de inovare care ține cont de nevoile pieței, respectiv care presupune orientarea activităților de cercetare-dezvoltare în funcție de cerințele pieței."
             }
           ]
         }
@@ -40973,7 +40871,7 @@
       "content": [
         {
           "type": "text",
-          "value": "Conform Manualului Frascati (2015), cele 5 criterii pe care trebuie s ă le îndeplineasc ă activit ăț ilor de cercetare-dezvoltare sunt:"
+          "value": "Conform Manualului Frascati (2015), cele 5 criterii pe care trebuie să le îndeplinească activitățile de cercetare-dezvoltare sunt:"
         }
       ],
       "options": [
@@ -40982,7 +40880,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Nou, creativ, se adreseaz ă unui rezultat incert, sistematic ș i transferabil sau reproductibil ."
+              "value": "Noutate, creativitate, rezultat incert, caracter sistematic și transferabilitate sau reproductibilitate."
             }
           ]
         },
@@ -40991,7 +40889,7 @@
           "content": [
             {
               "type": "text",
-              "value": "F ă r ă noutate, necreativ, cu rezultat sigur, nesistematic ș i netransferabil."
+              "value": "Fără noutate, necreativ, cu rezultat sigur, nesistematic și netransferabil."
             }
           ]
         },
@@ -41000,7 +40898,7 @@
           "content": [
             {
               "type": "text",
-              "value": "F ă r ă noutate, creativ, cu rezultat sigur, netransferabil ș i nereproductibil."
+              "value": "Fără noutate, creativ, cu rezultat sigur, netransferabil și nereproductibil."
             }
           ]
         },
@@ -41009,7 +40907,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Activit ăț ile de cercetare-dezvoltare nu necesit ă criterii pentru a fi definite."
+              "value": "Activitățile de cercetare-dezvoltare nu necesită criterii pentru a fi definite."
             }
           ]
         }
@@ -41027,7 +40925,7 @@
       "content": [
         {
           "type": "text",
-          "value": "Activit ăț ile de cercetare-dezvoltare se clasific ă în:"
+          "value": "Activitățile de cercetare-dezvoltare se clasifică în:"
         }
       ],
       "options": [
@@ -41036,7 +40934,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Cercetare direct ă , cercetare indirect ă , cercetare ș tiin ț ific ă ș i dezvoltare experimental ă ."
+              "value": "Cercetare directă, cercetare indirectă, cercetare științifică și dezvoltare experimentală."
             }
           ]
         },
@@ -41045,7 +40943,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Cercetare ș tiin ț ific ă , cuprinzând cercetarea fundamental ă ș i cercetarea aplicativ ă , ș i dezvoltare experimental ă ."
+              "value": "Cercetare științifică, cuprinzând cercetarea fundamentală și cercetarea aplicativă și dezvoltare experimentală."
             }
           ]
         },
@@ -41054,7 +40952,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Cercetare din fonduri publice ș i cercetare din fonduri private."
+              "value": "Cercetare din fonduri publice și cercetare din fonduri private."
             }
           ]
         },
@@ -41063,7 +40961,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Cercetare fundamental ă , cercetare aplicativ ă ș i cercetare din fonduri private."
+              "value": "Cercetare fundamentală, cercetare aplicativă și cercetare din fonduri private."
             }
           ]
         }
@@ -41081,7 +40979,7 @@
       "content": [
         {
           "type": "text",
-          "value": "Transformarea digital ă se refer ă la (are ca obiectiv):"
+          "value": "Transformarea digitală se referă la (are ca obiectiv):"
         }
       ],
       "options": [
@@ -41090,7 +40988,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Integrarea tehnologiilor digitale in procesele de baz ă ale organiza ț iei ș i în ț elegerea impactului acestor tehnologii asupra societ ăț ii ."
+              "value": "Integrarea tehnologiilor digitale în procesele de bază ale organizației și înțelegerea impactului acestor tehnologii asupra societății."
             }
           ]
         },
@@ -41099,7 +40997,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Integrarea inov ă rii in organiza ț ie."
+              "value": "Integrarea inovării în organizație."
             }
           ]
         },
@@ -41108,7 +41006,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Integrarea organiza ț iilor in clustere de inovare."
+              "value": "Integrarea organizațiilor în clustere de inovare."
             }
           ]
         },
@@ -41117,7 +41015,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Integrarea tehnologiilor digitale în procesele secundare/suport ale organiza ț iei ș i în ț elegerea impactului acestor tehnologii asupra societ ăț ii."
+              "value": "Integrarea tehnologiilor digitale în procesele secundare/suport ale organizației și înțelegerea impactului acestor tehnologii asupra societății."
             }
           ]
         }
@@ -41135,7 +41033,7 @@
       "content": [
         {
           "type": "text",
-          "value": "Fluxul logic de ac ț iuni obligatorii în procesul de transformare digital ă este:"
+          "value": "Fluxul logic de acțiuni obligatorii în procesul de transformare digitală este:"
         }
       ],
       "options": [
@@ -41144,7 +41042,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Digitalizare si inovare."
+              "value": "Digitalizare și inovare."
             }
           ]
         },
@@ -41153,7 +41051,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Digitizare, digitalizare ș i transformare digital ă ."
+              "value": "Digitizare, digitalizare și transformare digitală."
             }
           ]
         },
@@ -41162,7 +41060,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Transformare digital ă ș i inovare."
+              "value": "Transformare digitală și inovare."
             }
           ]
         },
@@ -41171,7 +41069,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Digitalizare, transformare digital ă ș i inovare."
+              "value": "Digitalizare, transformare digitală și inovare."
             }
           ]
         }
@@ -41189,7 +41087,7 @@
       "content": [
         {
           "type": "text",
-          "value": "Digitizarea reprezint ă :"
+          "value": "Digitizarea reprezintă:"
         }
       ],
       "options": [
@@ -41198,7 +41096,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Procesul care integreaz ă toate datele digitizate ș i procesele digitalizate în noi aplica ț ii de afaceri."
+              "value": "Procesul care integrează toate datele digitizate și procesele digitalizate în noi aplicații de afaceri."
             }
           ]
         },
@@ -41207,7 +41105,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Procesul prin care informa ț ia devine disponibil ă ș i accesibil ă în format analog."
+              "value": "Procesul prin care informația devine disponibilă și accesibilă în format analog."
             }
           ]
         },
@@ -41216,7 +41114,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Procesul prin care informa ț ia devine disponibil ă ș i accesibil ă în format digital ."
+              "value": "Procesul prin care informația devine disponibilă și accesibilă în format digital."
             }
           ]
         },
@@ -41225,7 +41123,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Ac ț iunea de a face procesele s ă aib ă un grad mai mare de automatizare prin folosirea instrumentelor digitale."
+              "value": "Acțiunea de a face procesele să aibă un grad mai mare de automatizare prin folosirea instrumentelor digitale."
             }
           ]
         }
@@ -41243,7 +41141,7 @@
       "content": [
         {
           "type": "text",
-          "value": "Digitalizarea reprezint ă :"
+          "value": "Digitalizarea reprezintă:"
         }
       ],
       "options": [
@@ -41252,7 +41150,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Ac ț iunea de a face procesele s ă aib ă un grad mai mare de automatizare prin folosirea instrumentelor digitale ."
+              "value": "Acțiunea de a face procesele să aibă un grad mai mare de automatizare prin folosirea instrumentelor digitale."
             }
           ]
         },
@@ -41261,7 +41159,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Procesul prin care informa ț ia devine disponibil ă ș i accesibil ă în format digital."
+              "value": "Procesul prin care informația devine disponibilă și accesibilă în format digital."
             }
           ]
         },
@@ -41270,7 +41168,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Procesul care integreaz ă toate datele digitizate ș i procesele digitalizate în noi aplica ț ii de afaceri."
+              "value": "Procesul care integrează toate datele digitizate și procesele digitalizate în noi aplicații de afaceri."
             }
           ]
         },
@@ -41279,7 +41177,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Procesul prin care informa ț ia devine disponibil ă ș i accesibil ă în format analog."
+              "value": "Procesul prin care informația devine disponibilă și accesibilă în format analog."
             }
           ]
         }
@@ -41297,7 +41195,7 @@
       "content": [
         {
           "type": "text",
-          "value": "Transformarea digital ă reprezint ă :"
+          "value": "Transformarea digitală reprezintă:"
         }
       ],
       "options": [
@@ -41306,7 +41204,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Procesul prin care informa ț ia devine disponibil ă ș i accesibil ă în format analog."
+              "value": "Procesul prin care informația devine disponibilă și accesibilă în format analog."
             }
           ]
         },
@@ -41315,7 +41213,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Procesul care integreaz ă toate datele digitizate ș i procesele digitalizate în noi aplica ț ii de afaceri ."
+              "value": "Procesul care integrează toate datele digitizate și procesele digitalizate în noi aplicații de afaceri."
             }
           ]
         },
@@ -41324,7 +41222,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Procesul prin care informa ț ia devine disponibil ă ș i accesibil ă în format digital."
+              "value": "Procesul prin care informația devine disponibilă și accesibilă în format digital."
             }
           ]
         },
@@ -41333,7 +41231,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Integrarea inov ă rii in organiza ț ie."
+              "value": "Integrarea inovării în organizație."
             }
           ]
         }
@@ -41351,7 +41249,7 @@
       "content": [
         {
           "type": "text",
-          "value": "Unul dintre beneficiile transform ă rii digitale în organiza ț ii îl reprezint ă :"
+          "value": "Unul dintre beneficiile transformării digitale în organizații este:"
         }
       ],
       "options": [
@@ -41360,7 +41258,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Cre ș terea num ă rului de opera ț iuni."
+              "value": "Creșterea numărului de operațiuni."
             }
           ]
         },
@@ -41369,7 +41267,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Opera ț iunile autonome ș i de la distan ță ."
+              "value": "Operațiunile autonome și de la distanță."
             }
           ]
         },
@@ -41378,7 +41276,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Cre ș terea num ă rului de angaja ț i."
+              "value": "Creșterea numărului de angajați."
             }
           ]
         },
@@ -41387,7 +41285,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Cre ș terea costurilor de operare."
+              "value": "Creșterea costurilor de operare."
             }
           ]
         }
@@ -41405,7 +41303,7 @@
       "content": [
         {
           "type": "text",
-          "value": "Nivelul de digitalizare al economiilor statelor membre ale Uniunii Europene (UE) se m ă soar ă prin:"
+          "value": "Nivelul de digitalizare al economiilor statelor membre ale Uniunii Europene (UE) se măsoară prin:"
         }
       ],
       "options": [
@@ -41415,668 +41313,6 @@
             {
               "type": "text",
               "value": "Indicele compozit EIS (European Innovation Scoreboard)."
-            }
-          ]
-        },
-        {
-          "id": "b",
-          "content": [
-            {
-              "type": "text",
-              "value": "Indicele compozit DESI (Digital Economy and Society Index) ."
-            }
-          ]
-        },
-        {
-          "id": "c",
-          "content": [
-            {
-              "type": "text",
-              "value": "Indicele compozit GII (Global Innovation Index)."
-            }
-          ]
-        },
-        {
-          "id": "d",
-          "content": [
-            {
-              "type": "text",
-              "value": "Nu exist ă indici compozi ț i care m ă soar ă nivelul de digitalizare."
-            }
-          ]
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": null
-    },
-    {
-      "id": "inovare-si-transformare-digitala-017",
-      "moduleId": "inovare-si-transformare-digitala",
-      "source": {
-        "page": 177,
-        "questionNumber": 17
-      },
-      "content": [
-        {
-          "type": "text",
-          "value": "Modelul de proces de inovare ““pia ț a care trage” (“market pull”) reprezint ă :"
-        }
-      ],
-      "options": [
-        {
-          "id": "a",
-          "content": [
-            {
-              "type": "text",
-              "value": "Inovare de produs."
-            }
-          ]
-        },
-        {
-          "id": "b",
-          "content": [
-            {
-              "type": "text",
-              "value": "Inovare de proces de afaceri."
-            }
-          ]
-        },
-        {
-          "id": "c",
-          "content": [
-            {
-              "type": "text",
-              "value": "Un model de proces de inovare care ț ine cont de nevoile pie ț ei, respectiv care presupune orientarea activit ăț ilor de cercetare-dezvoltare în func ț ie de cerin ț ele pie ț ei ."
-            }
-          ]
-        },
-        {
-          "id": "d",
-          "content": [
-            {
-              "type": "text",
-              "value": "Un model de proces de inovare, care presupune c ă inova ț iile sunt generate de organiza ț ie ș i împinse c ă tre pia ță , f ă r ă a se ț ine cont de nevoile pie ț ei."
-            }
-          ]
-        }
-      ],
-      "correctOptionId": "c",
-      "explanation": null
-    },
-    {
-      "id": "inovare-si-transformare-digitala-018",
-      "moduleId": "inovare-si-transformare-digitala",
-      "source": {
-        "page": 177,
-        "questionNumber": 18
-      },
-      "content": [
-        {
-          "type": "text",
-          "value": "Indicatorii de inovare trebuie s ă provin ă din sursele standard de colectare a datelor despre inovare, cele mai cunoscute fiind:"
-        }
-      ],
-      "options": [
-        {
-          "id": "a",
-          "content": [
-            {
-              "type": "code",
-              "value": "Cercetarea prin sondaj pe baza unui e ș antion statistic sau recens ă mânt; Datele\n    raportate administrativ ș i date generate de activit ăț i comerciale; Datele referitoare la\n    Proprietatea Intelectual ă (brevete, m ă rci, etc.); Evalu ă ri ale exper ț ilor; Statisticile\n    interna ț ionale bilaterale (comer ț , etc.); Datele privind cooper ă rile ș i alian ț ele în",
-              "language": "text"
-            },
-            {
-              "type": "text",
-              "value": "domeniul tehnologiei ."
-            }
-          ]
-        },
-        {
-          "id": "b",
-          "content": [
-            {
-              "type": "text",
-              "value": "Firmele care adopt ă practici avansate generale sau de managementul inov ă rii (% din"
-            },
-            {
-              "type": "code",
-              "value": "total firme); Firmele care utilizeaz ă tehnologii avansate, tehnologii generice esen ț iale\nsau tehnologii emergente (% din total firme); Firmele care utilizeaz ă instrumente ș i\nmetode digitale avansate (% din total firme); Firmele care utilizeaz ă platforme digitale",
-              "language": "text"
-            },
-            {
-              "type": "text",
-              "value": "pentru a vinde bunuri sau servicii (% din total firme)/Firmele care furnizeaz ă servicii de platforme digitale."
-            }
-          ]
-        },
-        {
-          "id": "c",
-          "content": [
-            {
-              "type": "text",
-              "value": "Influen ț ele externe asupra inov ă rii (inclusiv politicile publice) ș i condi ț iile cadru pentru inovare (inclusiv infrastructura de cunoa ș tere)."
-            }
-          ]
-        },
-        {
-          "id": "d",
-          "content": [
-            {
-              "type": "text",
-              "value": "Rezultatele finale (outcomes) economice ș i sociale ale inov ă rii."
-            }
-          ]
-        }
-      ],
-      "correctOptionId": "a",
-      "explanation": null
-    },
-    {
-      "id": "inovare-si-transformare-digitala-019",
-      "moduleId": "inovare-si-transformare-digitala",
-      "source": {
-        "page": 178,
-        "questionNumber": 19
-      },
-      "content": [
-        {
-          "type": "text",
-          "value": "Activit ăț ile de inovare în firm ă reprezint ă :"
-        }
-      ],
-      "options": [
-        {
-          "id": "a",
-          "content": [
-            {
-              "type": "text",
-              "value": "Exclusiv activit ăț ile de dezvoltare (cercetare-dezvoltare) întreprinse de o firm ă ș i care au scopul s ă sprijine realizarea unei inova ț ii."
-            }
-          ]
-        },
-        {
-          "id": "b",
-          "content": [
-            {
-              "type": "text",
-              "value": "Toate activit ăț ile de dezvoltare (cercetare-dezvoltare), financiare ș i comerciale întreprinse de o firm ă ș i care au scopul s ă aib ă ca rezultat o inova ț ie ."
-            }
-          ]
-        },
-        {
-          "id": "c",
-          "content": [
-            {
-              "type": "text",
-              "value": "Exclusiv activit ăț ile de cercetare ș tiin ț ific ă (cercetarea fundamental ă ș i cercetarea aplicativ ă ) întreprinse de o firm ă ș i care au scopul s ă sprijine realizarea unei inova ț ii."
-            }
-          ]
-        },
-        {
-          "id": "d",
-          "content": [
-            {
-              "type": "text",
-              "value": "Exclusiv activit ăț ile financiare ș i comerciale întreprinse de o firm ă ș i care au scopul s ă sprijine realizarea unei inova ț ii."
-            }
-          ]
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": null
-    },
-    {
-      "id": "inovare-si-transformare-digitala-020",
-      "moduleId": "inovare-si-transformare-digitala",
-      "source": {
-        "page": 178,
-        "questionNumber": 20
-      },
-      "content": [
-        {
-          "type": "text",
-          "value": "În func ț ie de gradul de noutate, inovarea se clasific ă în:"
-        }
-      ],
-      "options": [
-        {
-          "id": "a",
-          "content": [
-            {
-              "type": "text",
-              "value": "Nou ă pentru organiza ț ie ș i nou ă pentru întreaga lume."
-            }
-          ]
-        },
-        {
-          "id": "b",
-          "content": [
-            {
-              "type": "text",
-              "value": "Nou ă pentru organiza ț ie, nou ă pentru o anumit ă pia ță ș i nou ă pentru întreaga lume ."
-            }
-          ]
-        },
-        {
-          "id": "c",
-          "content": [
-            {
-              "type": "text",
-              "value": "Nou ă pentru o anumit ă pia ță ș i nou ă pentru întreaga lume."
-            }
-          ]
-        },
-        {
-          "id": "d",
-          "content": [
-            {
-              "type": "text",
-              "value": "Nou ă pentru organiza ț ie ș i nou ă pentru o anumit ă pia ță ."
-            }
-          ]
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": null
-    },
-    {
-      "id": "inovare-si-transformare-digitala-021",
-      "moduleId": "inovare-si-transformare-digitala",
-      "source": {
-        "page": 178,
-        "questionNumber": 21
-      },
-      "content": [
-        {
-          "type": "text",
-          "value": "Inovarea de produs reprezint ă :"
-        }
-      ],
-      "options": [
-        {
-          "id": "a",
-          "content": [
-            {
-              "type": "text",
-              "value": "Un bun sau un serviciu nou (inven ț ie) sau care este semnificativ îmbun ă t ăț it fa ță de bunurile sau serviciile anterioare ale întreprinderii ș i care a fost introdus pe pia ță ."
-            }
-          ]
-        },
-        {
-          "id": "b",
-          "content": [
-            {
-              "type": "text",
-              "value": "Exclusiv un bun sau un serviciu nou (inven ț ie) care a fost introdus pe pia ță ."
-            }
-          ]
-        },
-        {
-          "id": "c",
-          "content": [
-            {
-              "type": "text",
-              "value": "Exclusiv un bun sau un serviciu care este semnificativ îmbun ă t ăț it fa ță de bunurile sau serviciile anterioare ale întreprinderii ș i care a fost introdus pe pia ță ."
-            }
-          ]
-        },
-        {
-          "id": "d",
-          "content": [
-            {
-              "type": "text",
-              "value": "Un proces de afaceri nou (inven ț ie) sau care este semnificativ îmbun ă t ăț it fa ță de procesele de afaceri anterioare ale întreprinderii (firmei) ș i care a fost introdus pe pia ță sau în activitatea întreprinderii."
-            }
-          ]
-        }
-      ],
-      "correctOptionId": "a",
-      "explanation": null
-    },
-    {
-      "id": "inovare-si-transformare-digitala-022",
-      "moduleId": "inovare-si-transformare-digitala",
-      "source": {
-        "page": 178,
-        "questionNumber": 22
-      },
-      "content": [
-        {
-          "type": "text",
-          "value": "Inovarea de proces de afaceri reprezint ă :"
-        }
-      ],
-      "options": [
-        {
-          "id": "a",
-          "content": [
-            {
-              "type": "text",
-              "value": "Un proces de afaceri nou (inven ț ie) sau semnificativ îmbun ă t ăț it pentru una sau mai multe func ț ii de afacere/difer ă semnificativ fa ță de procesele de afaceri anterioare ale întreprinderii ș i care a fost introdus în utilizare (în activitate) de c ă tre întreprindere sau valorificat (introdus) pe pia ță ."
-            }
-          ]
-        },
-        {
-          "id": "b",
-          "content": [
-            {
-              "type": "text",
-              "value": "Exclusiv un proces de afaceri nou (inven ț ie) pentru una sau mai multe func ț ii de afacere ș i care a fost introdus în utilizare (în activitate) de c ă tre întreprindere sau valorificat (introdus) pe pia ță ."
-            }
-          ]
-        },
-        {
-          "id": "c",
-          "content": [
-            {
-              "type": "text",
-              "value": "Exclusiv un proces de afaceri semnificativ îmbun ă t ăț it pentru una sau mai multe func ț ii de afacere/difer ă semnificativ fa ță de procesele de afaceri anterioare ale întreprinderii ș i care a fost introdus în utilizare (în activitate) de c ă tre întreprindere sau valorificat (introdus) pe pia ță ."
-            }
-          ]
-        },
-        {
-          "id": "d",
-          "content": [
-            {
-              "type": "text",
-              "value": "Un bun sau un serviciu nou (inven ț ie) sau care este semnificativ îmbun ă t ăț it/difer ă semnificativ fa ță de bunurile sau serviciile anterioare ale întreprinderii ș i care a fost introdus pe pia ță ."
-            }
-          ]
-        }
-      ],
-      "correctOptionId": "a",
-      "explanation": null
-    },
-    {
-      "id": "inovare-si-transformare-digitala-023",
-      "moduleId": "inovare-si-transformare-digitala",
-      "source": {
-        "page": 178,
-        "questionNumber": 23
-      },
-      "content": [
-        {
-          "type": "text",
-          "value": "Industry 4.0 reprezint ă :"
-        }
-      ],
-      "options": [
-        {
-          "id": "a",
-          "content": [
-            {
-              "type": "text",
-              "value": "A 4-a revolu ț ie industrial ă , care se bazeaz ă exclusiv pe produc ț ia robotizat ă ."
-            }
-          ]
-        },
-        {
-          "id": "b",
-          "content": [
-            {
-              "type": "text",
-              "value": "A 4-a revolu ț ie industrial ă , care se bazeaz ă exclusiv pe produc ț ia în mas ă , linia de asamblare ș i electricitatea."
-            }
-          ]
-        },
-        {
-          "id": "c",
-          "content": [
-            {
-              "type": "text",
-              "value": "A 4-a revolu ț ie industrial ă , care se bazeaz ă exclusiv pe computer ș i automatizare."
-            }
-          ]
-        },
-        {
-          "id": "d",
-          "content": [
-            {
-              "type": "text",
-              "value": "A 4-a revolu ț ie industrial ă , care se bazeaz ă pe (f ă r ă limitare la) sisteme cyber-fizice (Cyber Physical Systems), care sunt conectate prin intermediul internetului ."
-            }
-          ]
-        }
-      ],
-      "correctOptionId": "d",
-      "explanation": null
-    },
-    {
-      "id": "inovare-si-transformare-digitala-024",
-      "moduleId": "inovare-si-transformare-digitala",
-      "source": {
-        "page": 179,
-        "questionNumber": 24
-      },
-      "content": [
-        {
-          "type": "text",
-          "value": "Modelul de proces de inovare “inovarea deschis ă ” reprezint ă :"
-        }
-      ],
-      "options": [
-        {
-          "id": "a",
-          "content": [
-            {
-              "type": "text",
-              "value": "Inovare de proces de afaceri."
-            }
-          ]
-        },
-        {
-          "id": "b",
-          "content": [
-            {
-              "type": "text",
-              "value": "Inovare de produs."
-            }
-          ]
-        },
-        {
-          "id": "c",
-          "content": [
-            {
-              "type": "text",
-              "value": "Un model de proces de inovare care presupune deschiderea procesului de inovare c ă tre orice abordare, configurare/reconfigurare, parte interesat ă (inclusiv autorit ăț i publice ș i clien ț i), resurs ă , surs ă de cunoa ș tere, parteneriat, care ar putea aduce suport ș i aport la ajungerea unei inova ț ii pe pia ță (in orice etap ă a procesului de inovare, de la idee pân ă la inova ț ia ajuns ă pe pia ță ), implicând efort comun ș i împ ă r ț irea beneficiilor ."
-            }
-          ]
-        },
-        {
-          "id": "d",
-          "content": [
-            {
-              "type": "text",
-              "value": "Un model de proces de inovare care presupune cre ș terea importan ț ei tehnologiei în asistarea procesului de inovare prin utilizarea unor platforme comune de software pentru proiectarea ș i produc ț ia asistate pe calculator."
-            }
-          ]
-        }
-      ],
-      "correctOptionId": "c",
-      "explanation": null
-    },
-    {
-      "id": "inovare-si-transformare-digitala-025",
-      "moduleId": "inovare-si-transformare-digitala",
-      "source": {
-        "page": 179,
-        "questionNumber": 25
-      },
-      "content": [
-        {
-          "type": "text",
-          "value": "Indicatorii de inovare reprezint ă :"
-        }
-      ],
-      "options": [
-        {
-          "id": "a",
-          "content": [
-            {
-              "type": "text",
-              "value": "Informa ț ie specific ă m ă surat ă , într-un anumit moment, despre un fenomen al inov ă rii (intrare, activitate, ie ș ire, rezultat final) ."
-            }
-          ]
-        },
-        {
-          "id": "b",
-          "content": [
-            {
-              "type": "text",
-              "value": "Capabilit ăț ile de inovare într-o organiza ț ie."
-            }
-          ]
-        },
-        {
-          "id": "c",
-          "content": [
-            {
-              "type": "text",
-              "value": "Ie ș irile/rezultatele imediate din activit ăț ile de inovare."
-            }
-          ]
-        },
-        {
-          "id": "d",
-          "content": [
-            {
-              "type": "text",
-              "value": "Inciden ț a inov ă rii ș i caracteristicile acesteia (ex. tip, noutate)."
-            }
-          ]
-        }
-      ],
-      "correctOptionId": "a",
-      "explanation": null
-    },
-    {
-      "id": "inovare-si-transformare-digitala-026",
-      "moduleId": "inovare-si-transformare-digitala",
-      "source": {
-        "page": 179,
-        "questionNumber": 26
-      },
-      "content": [
-        {
-          "type": "text",
-          "value": "Un exemplu de indicator de inovare la nivel de sistem de cercetare-dezvoltare-inovare (sistemul na ț ional) este urm ă torul:"
-        }
-      ],
-      "options": [
-        {
-          "id": "a",
-          "content": [
-            {
-              "type": "text",
-              "value": "Influen ț ele externe asupra inov ă rii (inclusiv politicile publice) ș i condi ț iile cadru pentru inovare (inclusiv infrastructura de cunoa ș tere)."
-            }
-          ]
-        },
-        {
-          "id": "b",
-          "content": [
-            {
-              "type": "text",
-              "value": "Firme care utilizeaz ă tehnologii avansate, tehnologii generice esen ț iale (Key Enabling Technologies) sau tehnologii emergente (% din total firme) ."
-            }
-          ]
-        },
-        {
-          "id": "c",
-          "content": [
-            {
-              "type": "text",
-              "value": "Un model de proces de inovare, care presupune c ă inova ț iile sunt generate de organiza ț ie ș i împinse c ă tre pia ță , f ă r ă a se ț ine cont de nevoile pie ț ei."
-            }
-          ]
-        },
-        {
-          "id": "d",
-          "content": [
-            {
-              "type": "text",
-              "value": "Un model de proces de inovare care ț ine cont de nevoile pie ț ei, respectiv care presupune orientarea activit ăț ilor de cercetare-dezvoltare în func ț ie de cerin ț ele pie ț ei."
-            }
-          ]
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": null
-    },
-    {
-      "id": "inovare-si-transformare-digitala-027",
-      "moduleId": "inovare-si-transformare-digitala",
-      "source": {
-        "page": 179,
-        "questionNumber": 27
-      },
-      "content": [
-        {
-          "type": "text",
-          "value": "Un exemplu de indicator de inovare intern (la nivel de organiza ț ie) este urm ă torul:"
-        }
-      ],
-      "options": [
-        {
-          "id": "a",
-          "content": [
-            {
-              "type": "text",
-              "value": "Cheltuieli de Cercetare-Dezvoltare (% in vânz ă ri) ."
-            }
-          ]
-        },
-        {
-          "id": "b",
-          "content": [
-            {
-              "type": "text",
-              "value": "Firme care utilizeaz ă tehnologii avansate, tehnologii generice esen ț iale (Key Enabling Technologies) sau tehnologii emergente (% din total firme)."
-            }
-          ]
-        },
-        {
-          "id": "c",
-          "content": [
-            {
-              "type": "text",
-              "value": "Un model de proces de inovare, care presupune c ă inova ț iile sunt generate de organiza ț ie ș i împinse c ă tre pia ță , f ă r ă a se ț ine cont de nevoile pie ț ei."
-            }
-          ]
-        },
-        {
-          "id": "d",
-          "content": [
-            {
-              "type": "text",
-              "value": "Un model de proces de inovare care ț ine cont de nevoile pie ț ei, respectiv care presupune orientarea activit ăț ilor de cercetare-dezvoltare în func ț ie de cerin ț ele pie ț ei."
-            }
-          ]
-        }
-      ],
-      "correctOptionId": "a",
-      "explanation": null
-    },
-    {
-      "id": "inovare-si-transformare-digitala-028",
-      "moduleId": "inovare-si-transformare-digitala",
-      "source": {
-        "page": 180,
-        "questionNumber": 28
-      },
-      "content": [
-        {
-          "type": "text",
-          "value": "Performan ț a în inovare a statelor membre ale Uniunii Europene (UE) se m ă soar ă prin:"
-        }
-      ],
-      "options": [
-        {
-          "id": "a",
-          "content": [
-            {
-              "type": "text",
-              "value": "Indicele compozit EIS (European Innovation Scoreboard/Tabloul de bord european al inov ă rii) ."
             }
           ]
         },
@@ -42103,7 +41339,669 @@
           "content": [
             {
               "type": "text",
-              "value": "Nu exist ă indici compozi ț i care m ă soar ă nivelul de digitalizare."
+              "value": "Nu există indici compoziți care măsoară nivelul de digitalizare."
+            }
+          ]
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": null
+    },
+    {
+      "id": "inovare-si-transformare-digitala-017",
+      "moduleId": "inovare-si-transformare-digitala",
+      "source": {
+        "page": 177,
+        "questionNumber": 17
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Modelul de proces de inovare „piața care trage” („market pull”) reprezintă:"
+        }
+      ],
+      "options": [
+        {
+          "id": "a",
+          "content": [
+            {
+              "type": "text",
+              "value": "Inovare de produs."
+            }
+          ]
+        },
+        {
+          "id": "b",
+          "content": [
+            {
+              "type": "text",
+              "value": "Inovare de proces de afaceri."
+            }
+          ]
+        },
+        {
+          "id": "c",
+          "content": [
+            {
+              "type": "text",
+              "value": "Un model de proces de inovare care ține cont de nevoile pieței, respectiv care presupune orientarea activităților de cercetare-dezvoltare în funcție de cerințele pieței."
+            }
+          ]
+        },
+        {
+          "id": "d",
+          "content": [
+            {
+              "type": "text",
+              "value": "Un model de proces de inovare, care presupune că inovațiile sunt generate de organizație și împinse către piață, fără a se ține cont de nevoile pieței."
+            }
+          ]
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": null
+    },
+    {
+      "id": "inovare-si-transformare-digitala-018",
+      "moduleId": "inovare-si-transformare-digitala",
+      "source": {
+        "page": 177,
+        "questionNumber": 18
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Indicatorii de inovare trebuie să provină din sursele standard de colectare a datelor despre inovare, cele mai cunoscute fiind:"
+        }
+      ],
+      "options": [
+        {
+          "id": "a",
+          "content": [
+            {
+              "type": "code",
+              "value": "Cercetarea prin sondaj pe baza unui eșantion statistic sau recensământ; Datele raportate administrativ și date generate de activități comerciale; Datele referitoare la proprietatea intelectuală (brevete, mărci etc.); Evaluări ale experților; Statisticile internaționale bilaterale (comerț etc.); Datele privind cooperările și alianțele în",
+              "language": "text"
+            },
+            {
+              "type": "text",
+              "value": "domeniul tehnologiei."
+            }
+          ]
+        },
+        {
+          "id": "b",
+          "content": [
+            {
+              "type": "text",
+              "value": "Firmele care adoptă practici avansate generale sau de management al inovării (% din"
+            },
+            {
+              "type": "code",
+              "value": "total firme); Firmele care utilizează tehnologii avansate, tehnologii generice esențiale sau tehnologii emergente (% din total firme); Firmele care utilizează instrumente și metode digitale avansate (% din total firme); Firmele care utilizează platforme digitale",
+              "language": "text"
+            },
+            {
+              "type": "text",
+              "value": "pentru a vinde bunuri sau servicii (% din total firme); Firmele care furnizează servicii de platforme digitale."
+            }
+          ]
+        },
+        {
+          "id": "c",
+          "content": [
+            {
+              "type": "text",
+              "value": "Influențele externe asupra inovării (inclusiv politicile publice) și condițiile cadru pentru inovare (inclusiv infrastructura de cunoaștere)."
+            }
+          ]
+        },
+        {
+          "id": "d",
+          "content": [
+            {
+              "type": "text",
+              "value": "Rezultatele finale (outcomes) economice și sociale ale inovării."
+            }
+          ]
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": null
+    },
+    {
+      "id": "inovare-si-transformare-digitala-019",
+      "moduleId": "inovare-si-transformare-digitala",
+      "source": {
+        "page": 178,
+        "questionNumber": 19
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Activitățile de inovare în firmă reprezintă:"
+        }
+      ],
+      "options": [
+        {
+          "id": "a",
+          "content": [
+            {
+              "type": "text",
+              "value": "Exclusiv activitățile de dezvoltare (cercetare-dezvoltare) întreprinse de o firmă și care au scopul să sprijine realizarea unei inovații."
+            }
+          ]
+        },
+        {
+          "id": "b",
+          "content": [
+            {
+              "type": "text",
+              "value": "Toate activitățile de dezvoltare (cercetare-dezvoltare), financiare și comerciale întreprinse de o firmă și care au scopul să aibă ca rezultat o inovație."
+            }
+          ]
+        },
+        {
+          "id": "c",
+          "content": [
+            {
+              "type": "text",
+              "value": "Exclusiv activitățile de cercetare științifică (cercetarea fundamentală și cercetarea aplicativă) întreprinse de o firmă și care au scopul să sprijine realizarea unei inovații."
+            }
+          ]
+        },
+        {
+          "id": "d",
+          "content": [
+            {
+              "type": "text",
+              "value": "Exclusiv activitățile financiare și comerciale întreprinse de o firmă și care au scopul să sprijine realizarea unei inovații."
+            }
+          ]
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": null
+    },
+    {
+      "id": "inovare-si-transformare-digitala-020",
+      "moduleId": "inovare-si-transformare-digitala",
+      "source": {
+        "page": 178,
+        "questionNumber": 20
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "În funcție de gradul de noutate, inovarea se clasifică în:"
+        }
+      ],
+      "options": [
+        {
+          "id": "a",
+          "content": [
+            {
+              "type": "text",
+              "value": "Nouă pentru organizație și nouă pentru întreaga lume."
+            }
+          ]
+        },
+        {
+          "id": "b",
+          "content": [
+            {
+              "type": "text",
+              "value": "Nouă pentru organizație, nouă pentru o anumită piață și nouă pentru întreaga lume."
+            }
+          ]
+        },
+        {
+          "id": "c",
+          "content": [
+            {
+              "type": "text",
+              "value": "Nouă pentru o anumită piață și nouă pentru întreaga lume."
+            }
+          ]
+        },
+        {
+          "id": "d",
+          "content": [
+            {
+              "type": "text",
+              "value": "Nouă pentru organizație și nouă pentru o anumită piață."
+            }
+          ]
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": null
+    },
+    {
+      "id": "inovare-si-transformare-digitala-021",
+      "moduleId": "inovare-si-transformare-digitala",
+      "source": {
+        "page": 178,
+        "questionNumber": 21
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Inovarea de produs reprezintă:"
+        }
+      ],
+      "options": [
+        {
+          "id": "a",
+          "content": [
+            {
+              "type": "text",
+              "value": "Un bun sau un serviciu nou (invenție) sau care este semnificativ îmbunătățit față de bunurile sau serviciile anterioare ale întreprinderii și care a fost introdus pe piață."
+            }
+          ]
+        },
+        {
+          "id": "b",
+          "content": [
+            {
+              "type": "text",
+              "value": "Exclusiv un bun sau un serviciu nou (invenție) care a fost introdus pe piață."
+            }
+          ]
+        },
+        {
+          "id": "c",
+          "content": [
+            {
+              "type": "text",
+              "value": "Exclusiv un bun sau un serviciu care este semnificativ îmbunătățit față de bunurile sau serviciile anterioare ale întreprinderii și care a fost introdus pe piață."
+            }
+          ]
+        },
+        {
+          "id": "d",
+          "content": [
+            {
+              "type": "text",
+              "value": "Un proces de afaceri nou (invenție) sau care este semnificativ îmbunătățit față de procesele de afaceri anterioare ale întreprinderii (firmei) și care a fost introdus pe piață sau în activitatea întreprinderii."
+            }
+          ]
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": null
+    },
+    {
+      "id": "inovare-si-transformare-digitala-022",
+      "moduleId": "inovare-si-transformare-digitala",
+      "source": {
+        "page": 178,
+        "questionNumber": 22
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Inovarea de proces de afaceri reprezintă:"
+        }
+      ],
+      "options": [
+        {
+          "id": "a",
+          "content": [
+            {
+              "type": "text",
+              "value": "Un proces de afaceri nou (invenție) sau semnificativ îmbunătățit pentru una sau mai multe funcții de afacere, care diferă semnificativ față de procesele de afaceri anterioare ale întreprinderii și care a fost introdus în utilizare (în activitate) de către întreprindere sau valorificat (introdus) pe piață."
+            }
+          ]
+        },
+        {
+          "id": "b",
+          "content": [
+            {
+              "type": "text",
+              "value": "Exclusiv un proces de afaceri nou (invenție) pentru una sau mai multe funcții de afacere și care a fost introdus în utilizare (în activitate) de către întreprindere sau valorificat (introdus) pe piață."
+            }
+          ]
+        },
+        {
+          "id": "c",
+          "content": [
+            {
+              "type": "text",
+              "value": "Exclusiv un proces de afaceri semnificativ îmbunătățit pentru una sau mai multe funcții de afacere, care diferă semnificativ față de procesele de afaceri anterioare ale întreprinderii și care a fost introdus în utilizare (în activitate) de către întreprindere sau valorificat (introdus) pe piață."
+            }
+          ]
+        },
+        {
+          "id": "d",
+          "content": [
+            {
+              "type": "text",
+              "value": "Un bun sau un serviciu nou (invenție) sau care este semnificativ îmbunătățit/diferă semnificativ față de bunurile sau serviciile anterioare ale întreprinderii și care a fost introdus pe piață."
+            }
+          ]
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": null
+    },
+    {
+      "id": "inovare-si-transformare-digitala-023",
+      "moduleId": "inovare-si-transformare-digitala",
+      "source": {
+        "page": 178,
+        "questionNumber": 23
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Industry 4.0 reprezintă:"
+        }
+      ],
+      "options": [
+        {
+          "id": "a",
+          "content": [
+            {
+              "type": "text",
+              "value": "A 4-a revoluție industrială, care se bazează exclusiv pe producția robotizată."
+            }
+          ]
+        },
+        {
+          "id": "b",
+          "content": [
+            {
+              "type": "text",
+              "value": "A 4-a revoluție industrială, care se bazează exclusiv pe producția în masă, linia de asamblare și electricitatea."
+            }
+          ]
+        },
+        {
+          "id": "c",
+          "content": [
+            {
+              "type": "text",
+              "value": "A 4-a revoluție industrială, care se bazează exclusiv pe computer și automatizare."
+            }
+          ]
+        },
+        {
+          "id": "d",
+          "content": [
+            {
+              "type": "text",
+              "value": "A 4-a revoluție industrială, care se bazează pe (fără limitare la) sisteme ciber-fizice (Cyber-Physical Systems), care sunt conectate prin intermediul internetului."
+            }
+          ]
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": null
+    },
+    {
+      "id": "inovare-si-transformare-digitala-024",
+      "moduleId": "inovare-si-transformare-digitala",
+      "source": {
+        "page": 179,
+        "questionNumber": 24
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Modelul de proces de inovare „inovarea deschisă” reprezintă:"
+        }
+      ],
+      "options": [
+        {
+          "id": "a",
+          "content": [
+            {
+              "type": "text",
+              "value": "Inovare de proces de afaceri."
+            }
+          ]
+        },
+        {
+          "id": "b",
+          "content": [
+            {
+              "type": "text",
+              "value": "Inovare de produs."
+            }
+          ]
+        },
+        {
+          "id": "c",
+          "content": [
+            {
+              "type": "text",
+              "value": "Un model de proces de inovare care presupune deschiderea procesului de inovare către orice abordare, configurare/reconfigurare, parte interesată (inclusiv autorități publice și clienți), resursă, sursă de cunoaștere, parteneriat, care ar putea contribui la aducerea unei inovații pe piață (în orice etapă a procesului de inovare, de la idee până la inovația ajunsă pe piață), implicând efort comun și împărțirea beneficiilor."
+            }
+          ]
+        },
+        {
+          "id": "d",
+          "content": [
+            {
+              "type": "text",
+              "value": "Un model de proces de inovare care presupune creșterea importanței tehnologiei în asistarea procesului de inovare prin utilizarea unor platforme comune de software pentru proiectarea și producția asistate pe calculator."
+            }
+          ]
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": null
+    },
+    {
+      "id": "inovare-si-transformare-digitala-025",
+      "moduleId": "inovare-si-transformare-digitala",
+      "source": {
+        "page": 179,
+        "questionNumber": 25
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Indicatorii de inovare reprezintă:"
+        }
+      ],
+      "options": [
+        {
+          "id": "a",
+          "content": [
+            {
+              "type": "text",
+              "value": "O informație specifică, măsurată, într-un anumit moment, despre un fenomen al inovării (intrare, activitate, ieșire, rezultat final)."
+            }
+          ]
+        },
+        {
+          "id": "b",
+          "content": [
+            {
+              "type": "text",
+              "value": "Capabilitățile de inovare într-o organizație."
+            }
+          ]
+        },
+        {
+          "id": "c",
+          "content": [
+            {
+              "type": "text",
+              "value": "Ieșirile/rezultatele imediate din activitățile de inovare."
+            }
+          ]
+        },
+        {
+          "id": "d",
+          "content": [
+            {
+              "type": "text",
+              "value": "Incidența inovării și caracteristicile acesteia (ex. tip, noutate)."
+            }
+          ]
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": null
+    },
+    {
+      "id": "inovare-si-transformare-digitala-026",
+      "moduleId": "inovare-si-transformare-digitala",
+      "source": {
+        "page": 179,
+        "questionNumber": 26
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Un exemplu de indicator de inovare la nivel de sistem de cercetare-dezvoltare-inovare (sistemul național) este următorul:"
+        }
+      ],
+      "options": [
+        {
+          "id": "a",
+          "content": [
+            {
+              "type": "text",
+              "value": "Influențele externe asupra inovării (inclusiv politicile publice) și condițiile cadru pentru inovare (inclusiv infrastructura de cunoaștere)."
+            }
+          ]
+        },
+        {
+          "id": "b",
+          "content": [
+            {
+              "type": "text",
+              "value": "Firme care utilizează tehnologii avansate, tehnologii generice esențiale (Key Enabling Technologies) sau tehnologii emergente (% din total firme)."
+            }
+          ]
+        },
+        {
+          "id": "c",
+          "content": [
+            {
+              "type": "text",
+              "value": "Un model de proces de inovare, care presupune că inovațiile sunt generate de organizație și împinse către piață, fără a se ține cont de nevoile pieței."
+            }
+          ]
+        },
+        {
+          "id": "d",
+          "content": [
+            {
+              "type": "text",
+              "value": "Un model de proces de inovare care ține cont de nevoile pieței, respectiv care presupune orientarea activităților de cercetare-dezvoltare în funcție de cerințele pieței."
+            }
+          ]
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": null
+    },
+    {
+      "id": "inovare-si-transformare-digitala-027",
+      "moduleId": "inovare-si-transformare-digitala",
+      "source": {
+        "page": 179,
+        "questionNumber": 27
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Un exemplu de indicator de inovare intern (la nivel de organizație) este următorul:"
+        }
+      ],
+      "options": [
+        {
+          "id": "a",
+          "content": [
+            {
+              "type": "text",
+              "value": "Cheltuieli de cercetare-dezvoltare (% din vânzări)."
+            }
+          ]
+        },
+        {
+          "id": "b",
+          "content": [
+            {
+              "type": "text",
+              "value": "Firme care utilizează tehnologii avansate, tehnologii generice esențiale (Key Enabling Technologies) sau tehnologii emergente (% din total firme)."
+            }
+          ]
+        },
+        {
+          "id": "c",
+          "content": [
+            {
+              "type": "text",
+              "value": "Un model de proces de inovare, care presupune că inovațiile sunt generate de organizație și împinse către piață, fără a se ține cont de nevoile pieței."
+            }
+          ]
+        },
+        {
+          "id": "d",
+          "content": [
+            {
+              "type": "text",
+              "value": "Un model de proces de inovare care ține cont de nevoile pieței, respectiv care presupune orientarea activităților de cercetare-dezvoltare în funcție de cerințele pieței."
+            }
+          ]
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": null
+    },
+    {
+      "id": "inovare-si-transformare-digitala-028",
+      "moduleId": "inovare-si-transformare-digitala",
+      "source": {
+        "page": 180,
+        "questionNumber": 28
+      },
+      "content": [
+        {
+          "type": "text",
+          "value": "Performanța în inovare a statelor membre ale Uniunii Europene (UE) se măsoară prin:"
+        }
+      ],
+      "options": [
+        {
+          "id": "a",
+          "content": [
+            {
+              "type": "text",
+              "value": "Indicele compozit EIS (European Innovation Scoreboard/Tabloul de bord european al inovării)."
+            }
+          ]
+        },
+        {
+          "id": "b",
+          "content": [
+            {
+              "type": "text",
+              "value": "Indicele compozit DESI (Digital Economy and Society Index)."
+            }
+          ]
+        },
+        {
+          "id": "c",
+          "content": [
+            {
+              "type": "text",
+              "value": "Indicele compozit GII (Global Innovation Index)."
+            }
+          ]
+        },
+        {
+          "id": "d",
+          "content": [
+            {
+              "type": "text",
+              "value": "Nu există indici compoziți care măsoară nivelul de digitalizare."
             }
           ]
         }
@@ -42121,7 +42019,7 @@
       "content": [
         {
           "type": "text",
-          "value": "M ă surarea cât mai corect ă a inov ă rii la nivel de organiza ț ie este necesar ă deoarece:"
+          "value": "Măsurarea cât mai corectă a inovării la nivel de organizație este necesară deoarece:"
         }
       ],
       "options": [
@@ -42130,12 +42028,12 @@
           "content": [
             {
               "type": "code",
-              "value": "Sus ț ine cre ș terea num ă rului de opera ț iuni; sus ț ine cre ș terea num ă rului de angaja ț i,",
+              "value": "Susține creșterea numărului de operațiuni; susține creșterea numărului de angajați,",
               "language": "text"
             },
             {
               "type": "text",
-              "value": "faciliteaz ă opera ț iuni autonome ș i de la distan ță ."
+              "value": "facilitează operațiuni autonome și de la distanță."
             }
           ]
         },
@@ -42144,7 +42042,7 @@
           "content": [
             {
               "type": "code",
-              "value": "Faciliteaz ă automatizarea proceselor de baz ă în organiza ț ie;",
+              "value": "Facilitează automatizarea proceselor de bază în organizație.",
               "language": "text"
             }
           ]
@@ -42154,12 +42052,12 @@
           "content": [
             {
               "type": "code",
-              "value": "Furnizeaz ă , în general, o direc ț ie strategic ă pentru activit ăț ile inovatoare; ghideaz ă\n    alocarea de resurse pentru proiectele de inovare; faciliteaz ă diagnosticarea ș i",
+              "value": "Furnizează, în general, o direcție strategică pentru activitățile inovatoare; ghidează alocarea de resurse pentru proiectele de inovare; facilitează diagnosticarea și",
               "language": "text"
             },
             {
               "type": "text",
-              "value": "îmbun ă t ăț irea performan ț ei de inovare a unei organiza ț ii ."
+              "value": "îmbunătățirea performanței de inovare a unei organizații."
             }
           ]
         },
@@ -42168,7 +42066,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Sus ț ine un model de proces de inovare care ț ine cont de nevoile pie ț ei, respectiv care presupune orientarea activit ăț ilor de cercetare-dezvoltare în func ț ie de cerin ț ele pie ț ei."
+              "value": "Susține un model de proces de inovare care ține cont de nevoile pieței, respectiv care presupune orientarea activităților de cercetare-dezvoltare în funcție de cerințele pieței."
             }
           ]
         }
@@ -42186,7 +42084,7 @@
       "content": [
         {
           "type": "text",
-          "value": "Industry 5.0 reprezint ă :"
+          "value": "Industry 5.0 reprezintă:"
         }
       ],
       "options": [
@@ -42195,7 +42093,7 @@
           "content": [
             {
               "type": "text",
-              "value": "A 5-a revolu ț ie industrial ă , care se bazeaz ă exclusiv pe produc ț ia în mas ă ."
+              "value": "A 5-a revoluție industrială, care se bazează exclusiv pe producția în masă."
             }
           ]
         },
@@ -42204,7 +42102,7 @@
           "content": [
             {
               "type": "text",
-              "value": "A 5-a revolu ț ie industrial ă care presupune c ă poten ț ialul de progres se bazeaz ă pe Inteligen ț a Artificial ă , colaborarea dintre oameni ș i ma ș ini, ț intind dincolo de eficien ță ș i productivitate, c ă tre rolul ș i contribu ț ia industriei la societate ."
+              "value": "A 5-a revoluție industrială care presupune că potențialul de progres se bazează pe inteligența artificială, colaborarea dintre oameni și mașini, țintind dincolo de eficiență și productivitate, către rolul și contribuția industriei la societate."
             }
           ]
         },
@@ -42213,7 +42111,7 @@
           "content": [
             {
               "type": "text",
-              "value": "A 5-a revolu ț ie industrial ă , care se bazeaz ă exclusiv pe digitizare ș i digitalizare."
+              "value": "A 5-a revoluție industrială, care se bazează exclusiv pe digitizare și digitalizare."
             }
           ]
         },
@@ -42222,7 +42120,7 @@
           "content": [
             {
               "type": "text",
-              "value": "A 5-a revolu ț ie industrial ă , care se bazeaz ă exclusiv pe sisteme cyber-fizice (Cyber Physical Systems), care sunt conectate prin intermediul internetului."
+              "value": "A 5-a revoluție industrială, care se bazează exclusiv pe sisteme ciber-fizice (Cyber-Physical Systems), care sunt conectate prin intermediul internetului."
             }
           ]
         }
