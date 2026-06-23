@@ -4398,7 +4398,16 @@
       "content": [
         {
           "type": "text",
-          "value": "Fie 𝑡 un șir de caractere format din numere naturale nenule despărțite între ele prin spații și următoarele 4 expresii scrise în limbajul Python: • x=int(\"\".join(sorted(t.split()))) • x=int(\"\".join(sorted(\"\".join(t.split())))) • x=int(\"\".join(sorted(\"\".join(t.split())))[::-1]) • x=int(\"\".join(sorted(t)[::-1])) În câte dintre cele 4 expresii variabila 𝑥 va conține întotdeauna cel mai mare număr care se poate forma folosind toate cifrele tuturor numerelor din șirul 𝑡 ?"
+          "value": "Fie 𝑡 un șir de caractere format din numere naturale nenule despărțite între ele prin spații și următoarele 4 expresii scrise în limbajul Python:"
+        },
+        {
+          "type": "code",
+          "value": "x = int(\"\".join(sorted(t.split())))\nx = int(\"\".join(sorted(\"\".join(t.split()))))\nx = int(\"\".join(sorted(\"\".join(t.split())))[::-1])\nx = int(\"\".join(sorted(t)[::-1]))",
+          "language": "python"
+        },
+        {
+          "type": "text",
+          "value": "În câte dintre cele 4 expresii variabila 𝑥 va conține întotdeauna cel mai mare număr care se poate forma folosind toate cifrele tuturor numerelor din șirul 𝑡 ?"
         }
       ],
       "options": [
@@ -12185,7 +12194,7 @@
       "content": [
         {
           "type": "text",
-          "value": "Precizați care dintre urmaătoarele afirmații sunt adevărate: I. o interfață poate să conțină câmpuri publice, statice și finale, respectiv metode statice si metode implicite cu implementare II. o înterfață poate fi instanțiată III. o clasă poate implementa mai multe interfețe IV. mai multe clase pot implementa aceeași interfață"
+          "value": "Precizați care dintre următoarele afirmații sunt adevărate:\nI. o interfață poate să conțină câmpuri publice, statice și finale, respectiv metode statice și metode implicite cu implementare\nII. o interfață poate fi instanțiată\nIII. o clasă poate implementa mai multe interfețe\nIV. mai multe clase pot implementa aceeași interfață"
         }
       ],
       "options": [
@@ -13525,9 +13534,8 @@
           "id": "a",
           "content": [
             {
-              "type": "code",
-              "value": "sortarea rapidă;",
-              "language": "c"
+              "type": "text",
+              "value": "sortarea rapidă;"
             }
           ]
         },
@@ -13636,9 +13644,8 @@
           "id": "a",
           "content": [
             {
-              "type": "code",
-              "value": "sortarea rapidă;",
-              "language": "c"
+              "type": "text",
+              "value": "sortarea rapidă;"
             }
           ]
         },
@@ -18831,7 +18838,16 @@
       "content": [
         {
           "type": "text",
-          "value": "Se dă tabelul: ANGAJATI (CodAngaj, Nume, DataAngajare, Compartiment, Profesia, Salariu) Care dintre următoarele instrucţiuni (Transact) SQL permite afişarea numărului de salariaţi pentru fiecare compartiment care incepe cu litera \"J\"?"
+          "value": "Se dă tabelul:"
+        },
+        {
+          "type": "code",
+          "value": "ANGAJATI (CodAngaj, Nume, DataAngajare, Compartiment, Profesia, Salariu)",
+          "language": "sql"
+        },
+        {
+          "type": "text",
+          "value": "Care dintre următoarele instrucţiuni (Transact) SQL permite afişarea numărului de salariaţi pentru fiecare compartiment care începe cu litera \"J\"?"
         }
       ],
       "options": [
@@ -18840,12 +18856,8 @@
           "content": [
             {
               "type": "code",
-              "value": "SELECT COUNT(CodAngajat) AS Numar, Compartiment FROM ANGAJATI",
+              "value": "SELECT COUNT(CodAngajat) AS Numar, Compartiment\nFROM ANGAJATI\nWHERE Compartiment LIKE 'J%'\nGROUP BY Compartiment",
               "language": "sql"
-            },
-            {
-              "type": "text",
-              "value": "WHERE Compartiment LIKE ‘J%’ GROUP BY Compartiment"
             }
           ]
         },
@@ -18854,12 +18866,8 @@
           "content": [
             {
               "type": "code",
-              "value": "SELECT CodAngajat, Nume, Compartiment FROM ANGAJATI WHERE Nume",
+              "value": "SELECT CodAngajat, Nume, Compartiment\nFROM ANGAJATI\nWHERE Nume LIKE 'J%'",
               "language": "sql"
-            },
-            {
-              "type": "text",
-              "value": "LIKE ‘J%’"
             }
           ]
         },
@@ -18868,12 +18876,8 @@
           "content": [
             {
               "type": "code",
-              "value": "SELECT COUNT(CodAngajat) AS Numar, Nume, Compartiment",
+              "value": "SELECT COUNT(CodAngajat) AS Numar, Nume, Compartiment\nFROM ANGAJATI\nWHERE Compartiment LIKE 'J%'\nGROUP BY Compartiment",
               "language": "sql"
-            },
-            {
-              "type": "text",
-              "value": "FROM ANGAJATI WHERE Compartiment LIKE ‘J%’ GROUP BY Compartiment"
             }
           ]
         },
@@ -18882,12 +18886,8 @@
           "content": [
             {
               "type": "code",
-              "value": "SELECT CodAngajat, Nume, Compartiment FROM ANGAJATI",
+              "value": "SELECT CodAngajat, Nume, Compartiment\nFROM ANGAJATI\nWHERE Compartiment LIKE 'J%'",
               "language": "sql"
-            },
-            {
-              "type": "text",
-              "value": "WHERE Compartiment LIKE ‘J%’"
             }
           ]
         }
@@ -21483,12 +21483,8 @@
         },
         {
           "type": "code",
-          "value": "SELECT id_departament , COUNT(id_angajat)",
+          "value": "SELECT id_departament, COUNT(id_angajat)\nFROM angajati\nGROUP BY id_departament",
           "language": "sql"
-        },
-        {
-          "type": "text",
-          "value": "FROM angajati GROUP BY id_departament"
         }
       ],
       "options": [
@@ -30992,9 +30988,8 @@
           "id": "a",
           "content": [
             {
-              "type": "code",
-              "value": "Bloc de criptare si bloc de decriptare cu chei criptografice diferite;",
-              "language": "text"
+              "type": "text",
+              "value": "Bloc de criptare si bloc de decriptare cu chei criptografice diferite;"
             }
           ]
         },
@@ -31002,9 +30997,8 @@
           "id": "b",
           "content": [
             {
-              "type": "code",
-              "value": "Bloc de criptare si bloc de decriptare fără chei criptografice;",
-              "language": "text"
+              "type": "text",
+              "value": "Bloc de criptare si bloc de decriptare fără chei criptografice;"
             }
           ]
         },
@@ -31012,9 +31006,8 @@
           "id": "c",
           "content": [
             {
-              "type": "code",
-              "value": "Bloc de criptare cu două chei criptografice identice;",
-              "language": "text"
+              "type": "text",
+              "value": "Bloc de criptare cu două chei criptografice identice;"
             }
           ]
         },
@@ -31176,12 +31169,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Prelucrarea informației efectuata de către destinatar pentru a extrage mesajul"
-            },
-            {
-              "type": "code",
-              "value": "clar dintr-un text criptat recepționat;",
-              "language": "text"
+              "value": "Prelucrarea informației efectuata de către destinatar pentru a extrage mesajul clar dintr-un text criptat recepționat;"
             }
           ]
         },
@@ -31190,12 +31178,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Ansamblul de prelucrări matematice și statistice, efectuate la destinația"
-            },
-            {
-              "type": "code",
-              "value": "mesajului criptat, pentru a extrage mesajul clar;",
-              "language": "text"
+              "value": "Ansamblul de prelucrări matematice și statistice, efectuate la destinația mesajului criptat, pentru a extrage mesajul clar;"
             }
           ]
         },
@@ -31204,12 +31187,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Cumul de interpretări bazate pe analize empirice si/sau științifice efectuate de către un interceptor neautorizat pentru a descoperi mesajul clar dintr-un text"
-            },
-            {
-              "type": "code",
-              "value": "criptat;",
-              "language": "text"
+              "value": "Cumul de interpretări bazate pe analize empirice si/sau științifice efectuate de către un interceptor neautorizat pentru a descoperi mesajul clar dintr-un text criptat;"
             }
           ]
         },
@@ -33136,9 +33114,8 @@
           "id": "a",
           "content": [
             {
-              "type": "code",
-              "value": "Fracționarea cuvintelor din textul clar;",
-              "language": "text"
+              "type": "text",
+              "value": "Fracționarea cuvintelor din textul clar;"
             }
           ]
         },
@@ -33146,9 +33123,8 @@
           "id": "b",
           "content": [
             {
-              "type": "code",
-              "value": "Fracționarea literelor din textul clar;",
-              "language": "text"
+              "type": "text",
+              "value": "Fracționarea literelor din textul clar;"
             }
           ]
         },
@@ -33156,9 +33132,8 @@
           "id": "c",
           "content": [
             {
-              "type": "code",
-              "value": "Fracționarea literelor din textul criptat;",
-              "language": "text"
+              "type": "text",
+              "value": "Fracționarea literelor din textul criptat;"
             }
           ]
         },
