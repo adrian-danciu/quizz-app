@@ -17326,20 +17326,11 @@
       "content": [
         {
           "type": "text",
-          "value": "Se dă următoarea funcție, care apelează funcția interclasare descrisă la exercițiul 29. void mergesort(int x[], int prim, int ultim)"
+          "value": "Se dă următoarea funcție, care apelează funcția interclasare descrisă la exercițiul 29."
         },
         {
           "type": "code",
-          "value": "{",
-          "language": "c"
-        },
-        {
-          "type": "text",
-          "value": "if (prim < ultim)"
-        },
-        {
-          "type": "code",
-          "value": "    {\n            int mijloc = (prim + ultim)/2;\n            mergesort(x, prim, mijloc);\n            mergesort(x, mijloc + 1, ultim);\n            int C[ultim - prim +1];\n            interclasare(x, prim, mijloc, ultim, C);\n            for (int i = prim; i <= ultim; i++)\n            x[i]=C[i-prim];\n        }\n}",
+          "value": "void mergesort(int x[], int prim, int ultim)\n{\n    if (prim < ultim)\n    {\n        int mijloc = (prim + ultim) / 2;\n        mergesort(x, prim, mijloc);\n        mergesort(x, mijloc + 1, ultim);\n        int C[ultim - prim + 1];\n        interclasare(x, prim, mijloc, ultim, C);\n        for (int i = prim; i <= ultim; i++)\n            x[i] = C[i - prim];\n    }\n}",
           "language": "c"
         },
         {
@@ -23962,7 +23953,16 @@
       "content": [
         {
           "type": "text",
-          "value": "Secvenţa de comenzi Microsoft SQL Server: SET IMPLICIT_TRANSACTIONS OFF BEGIN TRANSACTION DELETE FROM Tabel_sursa ROLLBACK are ca efect:"
+          "value": "Secvenţa de comenzi Microsoft SQL Server:"
+        },
+        {
+          "type": "code",
+          "value": "SET IMPLICIT_TRANSACTIONS OFF\nBEGIN TRANSACTION\nDELETE FROM Tabel_sursa\nROLLBACK",
+          "language": "sql"
+        },
+        {
+          "type": "text",
+          "value": "are ca efect:"
         }
       ],
       "options": [
@@ -26785,16 +26785,12 @@
       "content": [
         {
           "type": "text",
-          "value": "Ce face următorul script? #!/bin/bash n=1"
+          "value": "Ce face următorul script?"
         },
         {
           "type": "code",
-          "value": "while [ $n -le 5 ]; do",
+          "value": "#!/bin/bash\nn=1\nwhile [ $n -le 5 ]; do\n    echo \"Număr: $n\"\n    ((n++))\ndone",
           "language": "bash"
-        },
-        {
-          "type": "text",
-          "value": "echo \"Număr: $n\" ((n++)) done"
         }
       ],
       "options": [
