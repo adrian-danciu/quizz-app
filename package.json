@@ -14,6 +14,7 @@
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
     "@mui/material": "^9.1.1",
+    "@supabase/supabase-js": "^2.108.2",
     "prism-react-renderer": "^2.4.1",
     "prismjs": "^1.30.0",
     "react": "^19.2.6",

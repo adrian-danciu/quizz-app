@@ -12,12 +12,14 @@ import {
 } from '../features/quiz'
 
 const STORAGE_KEY = 'licenta-quiz-state'
-const STORAGE_VERSION = 1
+const STORAGE_VERSION = 2
+const MAX_EXAM_HISTORY = 50
 
 type PersistedQuizState = {
   progressByQuestionId: ProgressByQuestionId
   activeSession?: QuizSession
   completedSession?: QuizSession
+  examHistory: QuizSession[]
   selectedPracticeModuleId?: string
 }
 
@@ -34,6 +36,12 @@ type QuizStore = PersistedQuizState & {
   abandonActiveSession: () => void
   clearCompletedSession: () => void
   clearActionError: () => void
+  applyCloudState: (
+    progressByQuestionId: ProgressByQuestionId,
+    examHistory: QuizSession[],
+  ) => void
+  resetLocalQuizData: () => void
+  setPersistenceWarning: (warning?: string) => void
 }
 
 function createSessionId(): string {
@@ -56,6 +64,54 @@ function messageForError(code: string): string {
 
 const initialPersistedState: PersistedQuizState = {
   progressByQuestionId: {},
+  examHistory: [],
+}
+
+function orderAndLimitExamHistory(sessions: readonly QuizSession[]): QuizSession[] {
+  const uniqueById = new Map<string, QuizSession>()
+
+  for (const session of sessions) {
+    if (
+      session.mode === 'full-exam' &&
+      session.status === 'completed' &&
+      session.completedAt
+    ) {
+      uniqueById.set(session.id, session)
+    }
+  }
+
+  return [...uniqueById.values()]
+    .sort(
+      (left, right) =>
+        Date.parse(right.completedAt ?? '') - Date.parse(left.completedAt ?? ''),
+    )
+    .slice(0, MAX_EXAM_HISTORY)
+}
+
+export function migratePersistedState(persistedState: unknown): PersistedQuizState {
+  if (!persistedState || typeof persistedState !== 'object') {
+    return initialPersistedState
+  }
+
+  const state = persistedState as Partial<PersistedQuizState>
+  const migratedHistory = Array.isArray(state.examHistory)
+    ? state.examHistory
+    : state.completedSession?.mode === 'full-exam' &&
+        state.completedSession.status === 'completed'
+      ? [state.completedSession]
+      : []
+
+  return {
+    progressByQuestionId: state.progressByQuestionId ?? {},
+    ...(state.activeSession ? { activeSession: state.activeSession } : {}),
+    ...(state.completedSession
+      ? { completedSession: state.completedSession }
+      : {}),
+    examHistory: orderAndLimitExamHistory(migratedHistory),
+    ...(state.selectedPracticeModuleId
+      ? { selectedPracticeModuleId: state.selectedPracticeModuleId }
+      : {}),
+  }
 }
 
 export const useQuizStore = create<QuizStore>()(
@@ -68,6 +124,7 @@ export const useQuizStore = create<QuizStore>()(
         const state = get()
         let activeSession = state.activeSession
         let completedSession = state.completedSession
+        const restoredHistory: QuizSession[] = []
 
         if (activeSession) {
           const restored = restoreQuizSession(
@@ -84,7 +141,27 @@ export const useQuizStore = create<QuizStore>()(
           if (!restored.ok) completedSession = undefined
         }
 
-        set({ provider, initialized: true, activeSession, completedSession })
+        for (const historicalSession of state.examHistory) {
+          const restored = restoreQuizSession(
+            serializeQuizSession(historicalSession),
+            provider,
+          )
+          if (
+            restored.ok &&
+            restored.value.mode === 'full-exam' &&
+            restored.value.status === 'completed'
+          ) {
+            restoredHistory.push(restored.value)
+          }
+        }
+
+        set({
+          provider,
+          initialized: true,
+          activeSession,
+          completedSession,
+          examHistory: orderAndLimitExamHistory(restoredHistory),
+        })
       },
 
       startFullExam: () => {
@@ -152,7 +229,7 @@ export const useQuizStore = create<QuizStore>()(
       },
 
       advance: () => {
-        const { activeSession } = get()
+        const { activeSession, examHistory } = get()
         if (!activeSession) return 'error'
         const result = advanceQuizSession({ session: activeSession, now: new Date() })
         if (!result.ok) {
@@ -160,9 +237,14 @@ export const useQuizStore = create<QuizStore>()(
           return 'error'
         }
         if (result.value.status === 'completed') {
+          const nextHistory =
+            result.value.mode === 'full-exam'
+              ? orderAndLimitExamHistory([result.value, ...examHistory])
+              : examHistory
           set({
             activeSession: undefined,
             completedSession: result.value,
+            examHistory: nextHistory,
             actionError: undefined,
           })
           return 'completed'
@@ -174,6 +256,23 @@ export const useQuizStore = create<QuizStore>()(
       abandonActiveSession: () => set({ activeSession: undefined, actionError: undefined }),
       clearCompletedSession: () => set({ completedSession: undefined }),
       clearActionError: () => set({ actionError: undefined }),
+      applyCloudState: (progressByQuestionId, examHistory) =>
+        set({
+          progressByQuestionId,
+          examHistory: orderAndLimitExamHistory(examHistory),
+          persistenceWarning: undefined,
+        }),
+      resetLocalQuizData: () =>
+        set({
+          ...initialPersistedState,
+          activeSession: undefined,
+          completedSession: undefined,
+          selectedPracticeModuleId: undefined,
+          actionError: undefined,
+          persistenceWarning: undefined,
+        }),
+      setPersistenceWarning: (persistenceWarning) =>
+        set({ persistenceWarning }),
     }),
     {
       name: STORAGE_KEY,
@@ -183,12 +282,12 @@ export const useQuizStore = create<QuizStore>()(
         progressByQuestionId: state.progressByQuestionId,
         activeSession: state.activeSession,
         completedSession: state.completedSession,
+        examHistory: state.examHistory,
         selectedPracticeModuleId: state.selectedPracticeModuleId,
       }),
-      migrate: (persistedState) =>
-        (persistedState as PersistedQuizState | undefined) ?? initialPersistedState,
+      migrate: (persistedState) => migratePersistedState(persistedState),
     },
   ),
 )
 
-export { STORAGE_KEY, STORAGE_VERSION }
+export { MAX_EXAM_HISTORY, STORAGE_KEY, STORAGE_VERSION }

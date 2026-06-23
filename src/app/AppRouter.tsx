@@ -1,6 +1,10 @@
+import { Suspense } from 'react'
 import { Alert, Box, Button, CircularProgress, Stack } from '@mui/material'
 import { Navigate, Route, Routes } from 'react-router'
 import { HomePage } from '../pages/HomePage'
+import { LazyAuthCallbackPage, LazyLoginPage } from '../auth/LazyAuthPages'
+import { HistoricalResultPage } from '../pages/HistoricalResultPage'
+import { HistoryPage } from '../pages/HistoryPage'
 import { PracticeSetupPage } from '../pages/PracticeSetupPage'
 import { QuizPage } from '../pages/QuizPage'
 import { ResultsPage } from '../pages/ResultsPage'
@@ -34,7 +38,11 @@ export function AppRouter() {
         <Route element={<SetupGuard />}>
           <Route index element={<HomePage />} />
           <Route path="practice" element={<PracticeSetupPage />} />
+          <Route path="history" element={<HistoryPage />} />
+          <Route path="history/:sessionId" element={<HistoricalResultPage />} />
+          <Route path="login" element={<Suspense fallback={<CircularProgress />}><LazyLoginPage /></Suspense>} />
         </Route>
+        <Route path="auth/callback" element={<Suspense fallback={<CircularProgress />}><LazyAuthCallbackPage /></Suspense>} />
         <Route element={<QuizGuard />}>
           <Route path="quiz" element={<QuizPage />} />
         </Route>

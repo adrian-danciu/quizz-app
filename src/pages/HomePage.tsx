@@ -1,6 +1,7 @@
-import { Box, Button, Card, CardContent, Container, Grid, Stack, Typography } from '@mui/material'
+import { Alert, Box, Button, Card, CardContent, Container, Grid, Stack, Typography } from '@mui/material'
 import { useNavigate } from 'react-router'
 import { useQuestionData } from '../app/questionDataContext'
+import { AccountControls } from '../components/AccountControls'
 import { useQuizStore } from '../store/quizStore'
 
 export function HomePage() {
@@ -8,6 +9,7 @@ export function HomePage() {
   const { dataset, modules } = useQuestionData()
   const startFullExam = useQuizStore((state) => state.startFullExam)
   const completedSession = useQuizStore((state) => state.completedSession)
+  const persistenceWarning = useQuizStore((state) => state.persistenceWarning)
 
   const startExam = () => {
     if (startFullExam()) navigate('/quiz')
@@ -39,8 +41,15 @@ export function HomePage() {
             <Button size="large" variant="outlined" onClick={() => navigate('/practice')} sx={{ color: 'white', borderColor: 'rgba(255,255,255,.45)' }}>
               Alege un modul
             </Button>
+            <Button color="inherit" onClick={() => navigate('/history')}>Istoric examene</Button>
             {completedSession && <Button color="inherit" onClick={() => navigate('/results')}>Ultimul rezultat</Button>}
+            <AccountControls />
           </Stack>
+          {persistenceWarning && (
+            <Alert severity="warning" sx={{ mt: 3, maxWidth: 720 }}>
+              {persistenceWarning}
+            </Alert>
+          )}
         </Container>
       </Box>
 
