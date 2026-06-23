@@ -12543,11 +12543,11 @@
       "content": [
         {
           "type": "text",
-          "value": "Fie secvența următoare de cod (presupunem că în clasa Persoana sunt implementate corect metodele get și set pentru datele membre String nume și double salariu ): listaPersoane.stream() .filter(p -> p.getNume().startsWith(\"\"B\"\")) .filter(p -> p.getSalariu() > 2000) .map(Persoana::getNume) .sorted() .map(o -> o.toString())"
+          "value": "Fie secvența următoare de cod (presupunem că în clasa Persoana sunt implementate corect metodele get și set pentru datele membre String nume și double salariu):"
         },
         {
           "type": "code",
-          "value": ".collect(Collectors.joining(\"\",\"\"));",
+          "value": "listaPersoane.stream()\n    .filter(p -> p.getNume().startsWith(\"B\"))\n    .filter(p -> p.getSalariu() > 2000)\n    .map(Persoana::getNume)\n    .sorted()\n    .map(o -> o.toString())\n    .collect(Collectors.joining(\",\"));",
           "language": "java"
         },
         {
