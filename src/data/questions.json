@@ -13095,9 +13095,8 @@
           "id": "a",
           "content": [
             {
-              "type": "code",
-              "value": "1 dacă şi numai dacă tabloul a este sortat crescător şi 0 altfel;",
-              "language": "c"
+              "type": "text",
+              "value": "1 dacă şi numai dacă tabloul a este sortat crescător şi 0 altfel;"
             }
           ]
         },
@@ -13105,9 +13104,8 @@
           "id": "b",
           "content": [
             {
-              "type": "code",
-              "value": "1 dacă şi numai dacă toate valorile din tabloul a sunt pozitive şi 0 altfel;",
-              "language": "c"
+              "type": "text",
+              "value": "1 dacă şi numai dacă toate valorile din tabloul a sunt pozitive şi 0 altfel;"
             }
           ]
         },
@@ -13116,12 +13114,7 @@
           "content": [
             {
               "type": "text",
-              "value": "1 dacă şi numai dacă în tabloul a valorile negative se află înaintea celor pozitive şi 0"
-            },
-            {
-              "type": "code",
-              "value": "altfel;",
-              "language": "c"
+              "value": "1 dacă şi numai dacă în tabloul a valorile negative se află înaintea celor pozitive şi 0 altfel;"
             }
           ]
         },
@@ -13543,9 +13536,8 @@
           "id": "b",
           "content": [
             {
-              "type": "code",
-              "value": "căutarea binară;",
-              "language": "c"
+              "type": "text",
+              "value": "căutarea binară;"
             }
           ]
         },
@@ -13876,16 +13868,7 @@
       "content": [
         {
           "type": "text",
-          "value": "Dacă ultima soluție afişată de algoritmul backtracking pentru generarea tuturor"
-        },
-        {
-          "type": "code",
-          "value": "permutărilor mulțimii {1,2,…,7} este 7,6,3,5,4,2,1 , atunci următoarea soluție care va fi",
-          "language": "c"
-        },
-        {
-          "type": "text",
-          "value": "afişată este:"
+          "value": "Dacă ultima soluție afişată de algoritmul backtracking pentru generarea tuturor permutărilor mulțimii {1,2,…,7} este 7,6,3,5,4,2,1 , atunci următoarea soluție care va fi afişată este:"
         }
       ],
       "options": [
@@ -14652,12 +14635,7 @@
           "content": [
             {
               "type": "text",
-              "value": "construieşte o soluție element cu element şi în cazul în care valoarea elementului curent nu verifică anumite condiții se renunță la acesta şi se revine la elementul"
-            },
-            {
-              "type": "code",
-              "value": "anterior;",
-              "language": "c"
+              "value": "construieşte o soluție element cu element şi în cazul în care valoarea elementului curent nu verifică anumite condiții se renunță la acesta şi se revine la elementul anterior;"
             }
           ]
         },
@@ -15041,9 +15019,8 @@
           "value": "Se consideră un triunghi de numere întregi format din 𝑛 linii, astfel: prima linie conține un număr, a doua linie conține două numere,. . ., ultima linie conține 𝑛 numere. În acest triunghi se pot forma sume de numere întregi în felul următor:"
         },
         {
-          "type": "code",
-          "value": "➢ se selectează numărul aflat pe prima linie;",
-          "language": "c"
+          "type": "text",
+          "value": "➢ se selectează numărul aflat pe prima linie;"
         },
         {
           "type": "text",
@@ -15055,9 +15032,8 @@
           "id": "a",
           "content": [
             {
-              "type": "code",
-              "value": "Greedy;",
-              "language": "c"
+              "type": "text",
+              "value": "Greedy;"
             }
           ]
         },
@@ -15065,9 +15041,8 @@
           "id": "b",
           "content": [
             {
-              "type": "code",
-              "value": "backtracking;",
-              "language": "c"
+              "type": "text",
+              "value": "backtracking;"
             }
           ]
         },
@@ -15075,9 +15050,8 @@
           "id": "c",
           "content": [
             {
-              "type": "code",
-              "value": "programării dinamice;",
-              "language": "c"
+              "type": "text",
+              "value": "programării dinamice;"
             }
           ]
         },
@@ -19480,12 +19454,8 @@
         },
         {
           "type": "code",
-          "value": "1. SELECT * FROM comenzi c\n    WHERE 'penar'=(SELECT den_prod FROM produs p WHERE p.codp=c.codp)\n2. SELECT c.nr_cda, c.codp, c.cant, c.data, c.codfisc",
+          "value": "1. SELECT * FROM comenzi c\n    WHERE 'penar'=(SELECT den_prod FROM produs p WHERE p.codp=c.codp)\n2. SELECT c.nr_cda, c.codp, c.cant, c.data, c.codfisc\n   FROM comenzi c, produs p WHERE p.codp=c.codp AND p.den_prod='penar'",
           "language": "sql"
-        },
-        {
-          "type": "text",
-          "value": "FROM comenzi c, produs p WHERE p.codp=c.codp AND p.den_prod='penar'"
         }
       ],
       "options": [
@@ -19938,12 +19908,8 @@
         },
         {
           "type": "code",
-          "value": "SELECT MIN (nume), SUM (nume), COUNT (*)",
+          "value": "SELECT MIN (nume), SUM (nume), COUNT (*)\nFROM tabela WHERE salariu = MAX (salariu)",
           "language": "sql"
-        },
-        {
-          "type": "text",
-          "value": "FROM tabela WHERE salariu = MAX (salariu)"
         }
       ],
       "options": [
@@ -22428,13 +22394,8 @@
       },
       "content": [
         {
-          "type": "code",
-          "value": "Trebuie să modificaţi un tabel din baza de date pe care aţi creat-o; mai mulţi",
-          "language": "sql"
-        },
-        {
           "type": "text",
-          "value": "utilizatori au primit permisiunile obiect SELECT, INSERT pentru acel tabel. Ce variantă ar trebui să executaţi pentru a modifica tabelul, fără a afecta permisiunile acordate?"
+          "value": "Trebuie să modificaţi un tabel din baza de date pe care aţi creat-o; mai mulţi utilizatori au primit permisiunile obiect SELECT, INSERT pentru acel tabel. Ce variantă ar trebui să executaţi pentru a modifica tabelul, fără a afecta permisiunile acordate?"
         }
       ],
       "options": [
@@ -23353,16 +23314,16 @@
       "content": [
         {
           "type": "text",
-          "value": "Aţi creat o vedere folosind comanda: CREATE VIEW dbo.Employee WITH ENCRYPTION"
+          "value": "Aţi creat o vedere folosind comanda:"
         },
         {
           "type": "code",
-          "value": "AS SELECT Name FROM dbo.HumanResources",
+          "value": "CREATE VIEW dbo.Employee WITH ENCRYPTION\nAS SELECT Name FROM dbo.HumanResources\nWHERE isEmployee = 1 WITH CHECK OPTION",
           "language": "sql"
         },
         {
           "type": "text",
-          "value": "WHERE isEmployee = 1 WITH CHECK OPTION Trebuie să împiedicaţi alţi utilizatori să copieze vederea. Ce instrucţiune ar trebui să folosiţi?"
+          "value": "Trebuie să împiedicaţi alţi utilizatori să copieze vederea. Ce instrucţiune ar trebui să folosiţi?"
         }
       ],
       "options": [
@@ -23370,17 +23331,9 @@
           "id": "a",
           "content": [
             {
-              "type": "text",
-              "value": "ALTER VIEW dbo.Employee WITH ENCRYPTION"
-            },
-            {
               "type": "code",
-              "value": "AS SELECT Name FROM dbo.HumanResources",
+              "value": "ALTER VIEW dbo.Employee WITH ENCRYPTION\nAS SELECT Name FROM dbo.HumanResources\nWHERE isEmployee = 1",
               "language": "sql"
-            },
-            {
-              "type": "text",
-              "value": "WHERE isEmployee = 1"
             }
           ]
         },
@@ -23388,8 +23341,9 @@
           "id": "b",
           "content": [
             {
-              "type": "text",
-              "value": "DENY ALL ON dbo.Employee TO public"
+              "type": "code",
+              "value": "DENY ALL ON dbo.Employee TO public",
+              "language": "sql"
             }
           ]
         },
@@ -23397,17 +23351,9 @@
           "id": "c",
           "content": [
             {
-              "type": "text",
-              "value": "ALTER VIEW dbo.Employee"
-            },
-            {
               "type": "code",
-              "value": "AS SELECT Name FROM dbo.HumanResources",
+              "value": "ALTER VIEW dbo.Employee\nAS SELECT Name FROM dbo.HumanResources\nWHERE isEmployee = 1 WITH CHECK OPTION",
               "language": "sql"
-            },
-            {
-              "type": "text",
-              "value": "WHERE isEmployee = 1 WITH CHECK OPTION"
             }
           ]
         },
@@ -23415,17 +23361,9 @@
           "id": "d",
           "content": [
             {
-              "type": "text",
-              "value": "ALTER VIEW dbo.Employee WITH SCHEMABINDING"
-            },
-            {
               "type": "code",
-              "value": "AS SELECT Name FROM dbo.HumanResources",
+              "value": "ALTER VIEW dbo.Employee WITH SCHEMABINDING\nAS SELECT Name FROM dbo.HumanResources\nWHERE isEmployee = 1",
               "language": "sql"
-            },
-            {
-              "type": "text",
-              "value": "WHERE isEmployee = 1"
             }
           ]
         }
@@ -30762,9 +30700,8 @@
           "id": "b",
           "content": [
             {
-              "type": "code",
-              "value": "Compresia informației generate de sursa informațională;",
-              "language": "text"
+              "type": "text",
+              "value": "Compresia informației generate de sursa informațională;"
             }
           ]
         },
@@ -30809,9 +30746,8 @@
           "id": "a",
           "content": [
             {
-              "type": "code",
-              "value": "Compresia informației generate de sursa informațională;",
-              "language": "text"
+              "type": "text",
+              "value": "Compresia informației generate de sursa informațională;"
             }
           ]
         },
@@ -30819,9 +30755,8 @@
           "id": "b",
           "content": [
             {
-              "type": "code",
-              "value": "Schimbarea formei de reprezentare a informației generate de sursă;",
-              "language": "text"
+              "type": "text",
+              "value": "Schimbarea formei de reprezentare a informației generate de sursă;"
             }
           ]
         },
@@ -30829,9 +30764,8 @@
           "id": "c",
           "content": [
             {
-              "type": "code",
-              "value": "Protejarea informației împotriva perturbațiilor din canalul de transmitere;",
-              "language": "text"
+              "type": "text",
+              "value": "Protejarea informației împotriva perturbațiilor din canalul de transmitere;"
             }
           ]
         },
@@ -31336,9 +31270,8 @@
           "id": "a",
           "content": [
             {
-              "type": "code",
-              "value": "Viteza de transfer a informației;",
-              "language": "text"
+              "type": "text",
+              "value": "Viteza de transfer a informației;"
             }
           ]
         },
@@ -31346,9 +31279,8 @@
           "id": "b",
           "content": [
             {
-              "type": "code",
-              "value": "Timpul de acoperire;",
-              "language": "text"
+              "type": "text",
+              "value": "Timpul de acoperire;"
             }
           ]
         },
@@ -31356,9 +31288,8 @@
           "id": "c",
           "content": [
             {
-              "type": "code",
-              "value": "Numărul de alfabete utilizate;",
-              "language": "text"
+              "type": "text",
+              "value": "Numărul de alfabete utilizate;"
             }
           ]
         },
@@ -31450,9 +31381,8 @@
           "id": "a",
           "content": [
             {
-              "type": "code",
-              "value": "Experiența criptanalistului;",
-              "language": "text"
+              "type": "text",
+              "value": "Experiența criptanalistului;"
             }
           ]
         },
@@ -31460,9 +31390,8 @@
           "id": "b",
           "content": [
             {
-              "type": "code",
-              "value": "Lungimea canalului de transmitere a informației;",
-              "language": "text"
+              "type": "text",
+              "value": "Lungimea canalului de transmitere a informației;"
             }
           ]
         },
@@ -31470,9 +31399,8 @@
           "id": "c",
           "content": [
             {
-              "type": "code",
-              "value": "Mijloacele tehnice de care dispune criptanalistul;",
-              "language": "text"
+              "type": "text",
+              "value": "Mijloacele tehnice de care dispune criptanalistul;"
             }
           ]
         },
@@ -32943,9 +32871,8 @@
           "id": "a",
           "content": [
             {
-              "type": "code",
-              "value": "Metode algebrice și aritmetice;",
-              "language": "text"
+              "type": "text",
+              "value": "Metode algebrice și aritmetice;"
             }
           ]
         },
@@ -32953,9 +32880,8 @@
           "id": "b",
           "content": [
             {
-              "type": "code",
-              "value": "Metode bazate pe teoria haosului;",
-              "language": "text"
+              "type": "text",
+              "value": "Metode bazate pe teoria haosului;"
             }
           ]
         },
@@ -32963,9 +32889,8 @@
           "id": "c",
           "content": [
             {
-              "type": "code",
-              "value": "Metode empirice;",
-              "language": "text"
+              "type": "text",
+              "value": "Metode empirice;"
             }
           ]
         },
@@ -37119,12 +37044,7 @@
           "content": [
             {
               "type": "text",
-              "value": "Cardlet-uri (applet-uri), aplicatii care sunt incarcate in card printr-un incarcator standard"
-            },
-            {
-              "type": "code",
-              "value": "(de exemplu, EZ Formatter);",
-              "language": "text"
+              "value": "Cardlet-uri (applet-uri), aplicatii care sunt incarcate in card printr-un incarcator standard (de exemplu, EZ Formatter);"
             }
           ]
         },
